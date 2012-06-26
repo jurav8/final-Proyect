@@ -1,19 +1,23 @@
 package org.ssj.gestordepacientes.Pruebas;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
+import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 public class Usuario {
 	
 	@Id
+	@GenericGenerator(name="persona" , strategy="increment")
+	@GeneratedValue(generator="persona")
 	private int idUsuario;
 	private String usuario;
 	private String clave;
 
-	public Usuario(int idUsuario, String usuario, String clave) {
+	public Usuario(String usuario, String clave) {
 		super();
-		this.idUsuario = idUsuario;
 		this.usuario = usuario;
 		this.clave = clave;
 	}

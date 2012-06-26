@@ -1,12 +1,17 @@
 package org.ssj.gestordepacientes.Pruebas;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
+import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 public class Padecimientos {
 	
 	@Id
+	@GenericGenerator(name="persona" , strategy="increment")
+	@GeneratedValue(generator="persona")
 	private int idPadecimiento;
 	private String nombre;
 	

@@ -3,35 +3,18 @@ package org.ssj.gestordepacientes.Pruebas;
 import java.util.GregorianCalendar;
 
 import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="persona")
 public class Paciente extends Persona {
 
-	@Id
-	private int idPaciente;
 	private GregorianCalendar fechaNacimiento;
 	private int fumador;
 	private String nombreFoto;
 	private int idAlergias;
 	private int idPadecimientos;
 	
-	public Paciente(String nombre, String apellido, String telefonoCasa,
-			String telefonoCelular, String direccion, String cedula,
-			int idPaciente, GregorianCalendar fechaNacimiento, int fumador,
-			String nombreFoto, int idAlergias, int idPadecimientos) {
-		super(nombre, apellido, telefonoCasa, telefonoCelular, direccion,
-				cedula);
-		this.idPaciente = idPaciente;
-		this.fechaNacimiento = fechaNacimiento;
-		this.fumador = fumador;
-		this.nombreFoto = nombreFoto;
-		this.idAlergias = idAlergias;
-		this.idPadecimientos = idPadecimientos;
-	}
-	public int getIdPaciente() {
-		return idPaciente;
-	}
 	public GregorianCalendar getFechaNacimiento() {
 		return fechaNacimiento;
 	}
@@ -46,9 +29,6 @@ public class Paciente extends Persona {
 	}
 	public int getIdPadecimientos() {
 		return idPadecimientos;
-	}
-	public void setIdPaciente(int idPaciente) {
-		this.idPaciente = idPaciente;
 	}
 	public void setFechaNacimiento(GregorianCalendar fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento;

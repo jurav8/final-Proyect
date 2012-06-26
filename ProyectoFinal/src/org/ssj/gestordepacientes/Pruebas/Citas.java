@@ -3,11 +3,16 @@ package org.ssj.gestordepacientes.Pruebas;
 import java.util.GregorianCalendar;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
+import org.hibernate.annotations.GenericGenerator;
 @Entity
 public class Citas {
 	
 	@Id
+	@GenericGenerator(name="citas" , strategy="increment")
+	@GeneratedValue(generator="citas")
 	private int idCitas;
 	private GregorianCalendar fecha;
 	private String hora;
@@ -15,16 +20,16 @@ public class Citas {
 	private int idPaciente;
 	private int idMedico;
 	
-	public Citas(int idCitas, GregorianCalendar fecha, String hora,
+	public Citas(GregorianCalendar fecha, String hora,
 			String causa, int idPaciente, int idMedico) {
 		super();
-		this.idCitas = idCitas;
 		this.fecha = fecha;
 		this.hora = hora;
 		this.causa = causa;
 		this.idPaciente = idPaciente;
 		this.idMedico = idMedico;
 	}
+	
 	public int getIdCitas() {
 		return idCitas;
 	}

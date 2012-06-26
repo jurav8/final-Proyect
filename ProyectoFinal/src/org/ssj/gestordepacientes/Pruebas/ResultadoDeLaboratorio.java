@@ -1,12 +1,18 @@
 package org.ssj.gestordepacientes.Pruebas;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
+import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 public class ResultadoDeLaboratorio {
 
 	@Id
+	@GenericGenerator(name="persona" , strategy="increment")
+	@GeneratedValue(generator="persona")
+	private int idResultadoLaboratorio;
 	private int idPruebaLaboratorio;
 	private int idPadecimiento;
 	private int idPrueba;
@@ -21,6 +27,13 @@ public class ResultadoDeLaboratorio {
 		this.resultado = resultado;
 	}
 
+	public int getIdResultadoLaboratorio() {
+		return idResultadoLaboratorio;
+	}
+
+	public void setIdResultadoLaboratorio(int idResultadoLaboratorio) {
+		this.idResultadoLaboratorio = idResultadoLaboratorio;
+	}
 	public int getIdPruebaLaboratorio() {
 		return idPruebaLaboratorio;
 	}

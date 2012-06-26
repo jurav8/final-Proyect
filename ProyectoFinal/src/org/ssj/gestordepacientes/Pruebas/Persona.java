@@ -1,10 +1,22 @@
 package org.ssj.gestordepacientes.Pruebas;
 
-import javax.persistence.Embeddable;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.MappedSuperclass;
 
-@Embeddable
-public  class Persona {
+import org.hibernate.annotations.GenericGenerator;
 
+@MappedSuperclass
+@Inheritance(strategy=InheritanceType.JOINED)
+public abstract  class Persona {
+
+	
+	@Id
+	@GenericGenerator(name="persona" , strategy="increment")
+	@GeneratedValue(generator="persona")
+	private int id;
 	private String nombre;
 	private String apellido;
 	private String telefonoCasa;
@@ -14,18 +26,11 @@ public  class Persona {
 
 	
 	
-	public Persona() {
-		super();
+	public int getId() {
+		return id;
 	}
-	public Persona(String nombre, String apellido, String telefonoCasa,
-			String telefonoCelular, String direccion, String cedula) {
-		super();
-		this.nombre = nombre;
-		this.apellido = apellido;
-		this.telefonoCasa = telefonoCasa;
-		this.telefonoCelular = telefonoCelular;
-		this.direccion = direccion;
-		this.cedula = cedula;
+	public void setId(int id) {
+		this.id = id;
 	}
 	public String getNombre() {
 		return nombre;
