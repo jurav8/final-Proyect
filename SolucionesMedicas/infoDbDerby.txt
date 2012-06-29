@@ -1,0 +1,3 @@
+jdbc:derby://localhost:1527/gestorDePacientes;create=true
+org.apache.derby.jdbc.ClientDriver
+Clave: gestordepacientes

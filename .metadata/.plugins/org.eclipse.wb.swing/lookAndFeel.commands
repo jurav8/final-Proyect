@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<add id="laf_1340100332734" name="Acryl" class-name="com.jtattoo.plaf.acryl.AcrylLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332734" name="Aero" class-name="com.jtattoo.plaf.aero.AeroLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332750" name="Aluminium" class-name="com.jtattoo.plaf.aluminium.AluminiumLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332765" name="Bernstein" class-name="com.jtattoo.plaf.bernstein.BernsteinLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332796" name="Fast" class-name="com.jtattoo.plaf.fast.FastLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332812" name="Graphite" class-name="com.jtattoo.plaf.graphite.GraphiteLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332828" name="HiFi" class-name="com.jtattoo.plaf.hifi.HiFiLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332843" name="Luna" class-name="com.jtattoo.plaf.luna.LunaLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332859" name="McWin" class-name="com.jtattoo.plaf.mcwin.McWinLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332875" name="Mint" class-name="com.jtattoo.plaf.mint.MintLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332875" name="Noire" class-name="com.jtattoo.plaf.noire.NoireLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100332890" name="Smart" class-name="com.jtattoo.plaf.smart.SmartLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+	<add id="laf_1340100444687" name="Aero" class-name="com.jtattoo.plaf.aero.AeroLookAndFeel" jar-path="D:\Documents and Settings\Savi\Mis documentos\Dropbox\Proyecto Final\SolucionesMedicas\lib\JTattoo.jar" category-id="__wbp_laf_root"/>
+</commands>

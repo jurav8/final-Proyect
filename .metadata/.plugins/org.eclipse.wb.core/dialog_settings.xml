@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.wb.internal.core.editor.palette.dialogs.ImportArchiveDialog">
+		<item value="419" key="height"/>
+		<item value="721" key="width"/>
+		<item value="175" key="y"/>
+		<item value="421" key="x"/>
+		<list key="HISTORY_JAR_LIST">
+			<item value="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/lib/jcalendar.jar"/>
+			<item value="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/lib/l2fprod-common-all.jar"/>
+		</list>
+	</section>
+	<section name="org.eclipse.wb.internal.core.model.property.editor.string.StringPropertyDialog">
+		<item value="303" key="height"/>
+		<item value="438" key="width"/>
+		<item value="233" key="y"/>
+		<item value="421" key="x"/>
+	</section>
+</section>

@@ -1,0 +1,122 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+import java.awt.Frame;
+import com.l2fprod.common.swing.JButtonBar;
+import java.awt.Dimension;
+import javax.swing.JButton;
+import java.awt.FlowLayout;
+import javax.swing.JLabel;
+import javax.swing.ImageIcon;
+import javax.swing.SwingConstants;
+import javax.swing.JPanel;
+import javax.swing.UIManager;
+import java.awt.GridLayout;
+import java.awt.SystemColor;
+import javax.swing.border.BevelBorder;
+import javax.swing.border.EtchedBorder;
+import javax.swing.border.SoftBevelBorder;
+import javax.swing.JSeparator;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JInternalFrame;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class VentanaPrincipal extends JFrame {
+	public VentanaPrincipal() {
+		setExtendedState(Frame.MAXIMIZED_BOTH);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setTitle("Soluciones Medicas");
+		getContentPane().setLayout(null);
+		
+		VentanaDeMantenimientos vm=new VentanaDeMantenimientos();
+		vm.setSize(293, 305);
+		vm.setLocation(189, 159);
+		vm.setVisible(true);
+		getContentPane().add(vm);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setOpaque(false);
+		panel_1.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		panel_1.setBounds(0, 716, 1284, 22);
+		getContentPane().add(panel_1);
+		panel_1.setLayout(null);
+		
+		JLabel lblNewLabel_1 = new JLabel("Bienvenidos!");
+		lblNewLabel_1.setBounds(4, 2, 266, 16);
+		panel_1.add(lblNewLabel_1);
+		
+		JSeparator separator = new JSeparator();
+		separator.setOrientation(SwingConstants.VERTICAL);
+		separator.setBounds(402, 0, 2, 22);
+		panel_1.add(separator);
+		
+		JLabel lblNewLabel = new JLabel("");
+		lblNewLabel.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/Imagenes/background.png")));
+		lblNewLabel.setBounds(0, 93, 1284, 622);
+		getContentPane().add(lblNewLabel);
+		
+		JPanel panel = new JPanel();
+		panel.setBorder(new SoftBevelBorder(BevelBorder.RAISED, null, null, null, null));
+		panel.setBackground(SystemColor.text);
+		panel.setBounds(0, 22, 1284, 71);
+		getContentPane().add(panel);
+		panel.setLayout(null);
+		
+		JButton btnNewButton_4 = new JButton("Buscar Pacientes");
+		btnNewButton_4.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/Imagenes/icons/Search-Male-User-icon.png")));
+		btnNewButton_4.setBounds(193, 8, 170, 55);
+		panel.add(btnNewButton_4);
+		
+		JButton btnNewButton_3 = new JButton("Ayuda");
+		btnNewButton_3.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/Imagenes/icons/Help-icon.png")));
+		btnNewButton_3.setBounds(736, 7, 170, 55);
+		panel.add(btnNewButton_3);
+		
+		JButton btnNewButton_2 = new JButton("Estad\u00EDsticas");
+		btnNewButton_2.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/Imagenes/icons/statistics-icon.png")));
+		btnNewButton_2.setBounds(374, 8, 170, 55);
+		panel.add(btnNewButton_2);
+		
+		JButton btnNewButton = new JButton("Lista de m\u00E9dicos");
+		btnNewButton.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/Imagenes/icons/Head-physician-icon.png")));
+		btnNewButton.setBounds(555, 8, 170, 55);
+		panel.add(btnNewButton);
+		
+		JButton btnMantenimiento = new JButton("Mantenimientos");
+		btnMantenimiento.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+			}
+		});
+		btnMantenimiento.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/Imagenes/icons/Action-configure-icon.png")));
+		btnMantenimiento.setFocusPainted(false);
+		btnMantenimiento.setBounds(12, 8, 170, 55);
+		panel.add(btnMantenimiento);
+		
+		JMenuBar menuBar = new JMenuBar();
+		menuBar.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
+		menuBar.setBounds(0, 0, 1279, 23);
+		getContentPane().add(menuBar);
+		
+		JMenu mnOpciones = new JMenu("Opciones");
+		menuBar.add(mnOpciones);
+		
+		JLabel lblCerrarSesin = new JLabel("  \r\n    Cerrar sesi\u00F3n     ");
+		mnOpciones.add(lblCerrarSesin);
+		
+		JSeparator separator_1 = new JSeparator();
+		mnOpciones.add(separator_1);
+		
+		JLabel lblSalir = new JLabel("      Salir    ");
+		mnOpciones.add(lblSalir);
+		
+		JMenu mnSalir = new JMenu("Ayuda");
+		menuBar.add(mnSalir);
+		
+		
+	}
+
+	private static final long serialVersionUID = 1L;
+}
