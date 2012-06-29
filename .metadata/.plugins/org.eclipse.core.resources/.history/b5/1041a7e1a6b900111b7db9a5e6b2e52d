@@ -1,0 +1,15 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+import java.awt.Frame;
+
+public class VentanaPrincipal extends JFrame {
+	public VentanaPrincipal() {
+		setExtendedState(Frame.MAXIMIZED_BOTH);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setTitle("Soluciones Medicas");
+	}
+
+	private static final long serialVersionUID = 1L;
+
+}

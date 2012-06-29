@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="32" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="139" y="111">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="157" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="75" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="121" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="131" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.yattasolutions.diagrams.layout.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="183" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.yattasolutions.umllab.intro.IntroEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wb.core.guiEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1340064294046" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Alergia.java" partName="Alergia.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java" title="Alergia.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="49" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Asistentes.java" partName="Asistentes.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java" title="Asistentes.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Citas.java" partName="Citas.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java" title="Citas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Especialidad.java" partName="Especialidad.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java" title="Especialidad.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Medico.java" partName="Medico.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java" title="Medico.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Paciente.java" partName="Paciente.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java" title="Paciente.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Padecimientos.java" partName="Padecimientos.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java" title="Padecimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Persona.java" partName="Persona.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java" title="Persona.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PruebaDeLaboratorio.java" partName="PruebaDeLaboratorio.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java" title="PruebaDeLaboratorio.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Recetas.java" partName="Recetas.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java" title="Recetas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResultadoDeLaboratorio.java" partName="ResultadoDeLaboratorio.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java" title="ResultadoDeLaboratorio.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usuario.java" partName="Usuario.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java" title="Usuario.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="541" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VentanaDeMantenimientos.java" partName="VentanaDeMantenimientos.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java" title="VentanaDeMantenimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="121" selectionOffset="873" selectionTopPixel="162"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sistema.java" partName="Sistema.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java" title="Sistema.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1548" selectionTopPixel="456"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaDeMantenimientos.java" partName="VentanaDeMantenimientos.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java" title="VentanaDeMantenimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="121" selectionOffset="873" selectionTopPixel="51"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (22 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="75" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.resourceField="75" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+<child filterId="org.eclipse.m2e.MavenModuleFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="com.yattasolutions.umllab.views.treeview" partName="UML Lab Tree">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
+<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
+<sorter groupBy="CATEGORY_QUERY">&#x0A;<sorter>&#x0A;<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sort1 sortDirection="1" sortKey="RANK"/>
+<sort2 sortDirection="1" sortKey="DATE_CREATED"/>
+<sort3 sortDirection="1" sortKey="NONE"/>
+<sort4 sortDirection="1" sortKey="NONE"/>
+<sort5 sortDirection="1" sortKey="NONE"/>
+<sort6 sortDirection="1" sortKey="NONE"/>
+<sort7 sortDirection="1" sortKey="NONE"/>
+</sorter>
+</sorter>
+<filteredTreeFindHistory/>
+</viewState>
+</view>
+<view id="org.eclipse.egit.ui.RepositoriesView" partName="Git Repositories">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.wb.core.ui.actionset"/>
+<alwaysOnActionSet id="com.yattasolutions.umllab.registrationActionSet"/>
+<alwaysOnActionSet id="com.yattasolutions.umllab.introActionSet"/>
+<alwaysOnActionSet id="com.yattasolutions.umllab.reporting.actionSet1"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.wb.core.StructureView"/>
+<show_view_action id="org.eclipse.wb.core.PaletteView"/>
+<show_in_time id="org.eclipse.egit.ui.RepositoriesView" time="1340300012859"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.yattasolutions.umllab.roundtrip.reversedModelWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@7839da" orientation="512" selectedTabId="org.eclipse.mylyn.tasks.ui.views.tasks" style="0">
+<fastViews>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@1362024" orientation="256" selectedTabId="com.yattasolutions.umllab.views.treeview" style="0">
+<fastViews>
+<view id="com.yattasolutions.umllab.views.treeview" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@a59f3a" orientation="512" selectedTabId="org.eclipse.egit.ui.RepositoriesView" style="0">
+<fastViews>
+<view id="org.eclipse.egit.ui.RepositoriesView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.30257186"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<page content="org.eclipse.wb.core.StructureView" label="LabelNotFound"/>
+<page content="org.eclipse.wb.core.PaletteView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@91d58b" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.18024692" ratioLeft="219" ratioRight="996" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.75" ratioLeft="492" ratioRight="164" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7839da" ratio="0.75" ratioLeft="567" ratioRight="189" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.5" ratioLeft="246" ratioRight="246" relationship="4" relative="org.eclipse.ui.internal.ViewStack@7839da">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c395fa" ratio="0.7497497" ratioLeft="749" ratioRight="250" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1362024" ratio="0.6996951" ratioLeft="459" ratioRight="197" relationship="4" relative="left">
+<folder appearance="2" expanded="2">
+<page content="com.yattasolutions.umllab.views.treeview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@a59f3a" ratio="0.59912854" ratioLeft="275" ratioRight="184" relationship="4" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.egit.ui.RepositoriesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/controlador/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaDePacientes.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/modelo/entidades/Alergia.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/modelo/entidades/Asistentes.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/modelo/entidades/Citas.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/controlador/Sistema.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/Sistema.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
+</editors>
+<item historyLabel="VentanaPrincipal.java" index="0">
+<position info="not_deleted" x="2172" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position/>
+</item>
+<item historyLabel="Main.java" index="2">
+<position info="not_deleted" x="501" y="112"/>
+</item>
+<item historyLabel="VentanaPrincipal.java" index="0">
+<position info="not_deleted" x="1163" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="3">
+<position info="not_deleted" x="1023" y="20"/>
+</item>
+<item historyLabel="VentanaPrincipal.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaDePacientes.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Alergia.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Asistentes.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Citas.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaDePacientes.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaPrincipal.java" index="10">
+<position info="not_deleted" x="1134" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaDePacientes.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaPrincipal.java" index="10">
+<position info="not_deleted" x="996" y="0"/>
+</item>
+<item historyLabel="Sistema.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Sistema.java" index="11">
+<position info="not_deleted" x="0" y="641"/>
+</item>
+<item historyLabel="Sistema.java" index="12">
+<position info="not_deleted" x="46" y="0"/>
+</item>
+<item historyLabel="VentanaPrincipal.java" index="10">
+<position info="not_deleted" x="996" y="0"/>
+</item>
+<item historyLabel="VentanaDePacientes.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaDePacientes.java" index="5">
+<position info="not_deleted" x="1384" y="0"/>
+</item>
+<item historyLabel="Alergia.java" index="13">
+<position info="not_deleted" x="51" y="0"/>
+</item>
+<item historyLabel="Alergia.java" index="13">
+<position info="not_deleted" x="222" y="0"/>
+</item>
+<item historyLabel="Alergia.java" index="13">
+<position info="not_deleted" x="0" y="49"/>
+</item>
+<item historyLabel="Asistentes.java" index="14">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="Citas.java" index="15">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="Especialidad.java" index="16">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="Medico.java" index="17">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="Paciente.java" index="18">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="Padecimientos.java" index="19">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="Persona.java" index="20">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="PruebaDeLaboratorio.java" index="21">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="Recetas.java" index="22">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="ResultadoDeLaboratorio.java" index="23">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="Usuario.java" index="24">
+<position info="not_deleted" x="541" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="25">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Sistema.java" index="26">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="25">
+<position info="not_deleted" x="873" y="121"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="27">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="27">
+<position info="not_deleted" x="837" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="27">
+<position info="not_deleted" x="1255" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="27">
+<position info="not_deleted" x="837" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="27">
+<position info="not_deleted" x="4178" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="27">
+<position info="not_deleted" x="873" y="121"/>
+</item>
+<item active="true" historyLabel="Sistema.java" index="26">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1362024"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@a59f3a"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@7839da"/>
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDeMantenimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sistema.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usuario.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResultadoDeLaboratorio.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Recetas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PruebaDeLaboratorio.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Persona.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Padecimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Paciente.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Medico.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Especialidad.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Citas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Asistentes.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Alergia.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sistema.java" tooltip="SolucionesMedicas/org/proyectofinal/gestorpacientes/Sistema.java">
+<persistable path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/Sistema.java"/>
+</file>
+</mruList>
+</workbench>

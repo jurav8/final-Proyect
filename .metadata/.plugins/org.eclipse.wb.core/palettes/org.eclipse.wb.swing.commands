@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addComponent
+		id="com.l2fprod.common.swing.JCollapsiblePane_1340065617734"
+		name="JCollapsiblePane"
+		description="Custom component: com.l2fprod.common.swing.JCollapsiblePane"
+		visible="true"
+		class="com.l2fprod.common.swing.JCollapsiblePane"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.l2fprod.common.swing.JTaskPaneGroup_1340065617734"
+		name="JTaskPaneGroup"
+		description="Custom component: com.l2fprod.common.swing.JTaskPaneGroup"
+		visible="true"
+		class="com.l2fprod.common.swing.JTaskPaneGroup"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.l2fprod.common.swing.JButtonBar_1340065617734"
+		name="JButtonBar"
+		description="Custom component: com.l2fprod.common.swing.JButtonBar"
+		visible="true"
+		class="com.l2fprod.common.swing.JButtonBar"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.l2fprod.common.swing.JTaskPane_1340065617734"
+		name="JTaskPane"
+		description="Custom component: com.l2fprod.common.swing.JTaskPane"
+		visible="true"
+		class="com.l2fprod.common.swing.JTaskPane"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.l2fprod.common.swing.JLinkButton_1340065617734"
+		name="JLinkButton"
+		description="Custom component: com.l2fprod.common.swing.JLinkButton"
+		visible="true"
+		class="com.l2fprod.common.swing.JLinkButton"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.l2fprod.common.swing.JDirectoryChooser_1340065617734"
+		name="JDirectoryChooser"
+		description="Custom component: com.l2fprod.common.swing.JDirectoryChooser"
+		visible="true"
+		class="com.l2fprod.common.swing.JDirectoryChooser"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.l2fprod.common.swing.PercentLayout_1340065617734"
+		name="PercentLayout"
+		description="Custom component: com.l2fprod.common.swing.PercentLayout"
+		visible="true"
+		class="com.l2fprod.common.swing.PercentLayout"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.l2fprod.common.swing.JFontChooser_1340065617734"
+		name="JFontChooser"
+		description="Custom component: com.l2fprod.common.swing.JFontChooser"
+		visible="true"
+		class="com.l2fprod.common.swing.JFontChooser"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.l2fprod.common.swing.JOutlookBar_1340065617734"
+		name="JOutlookBar"
+		description="Custom component: com.l2fprod.common.swing.JOutlookBar"
+		visible="true"
+		class="com.l2fprod.common.swing.JOutlookBar"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.DateEvent_1340277081984"
+		name="DateEvent"
+		description="Custom component: org.freixas.jcalendar.DateEvent"
+		visible="true"
+		class="org.freixas.jcalendar.DateEvent"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.DateListener_1340277081984"
+		name="DateListener"
+		description="Custom component: org.freixas.jcalendar.DateListener"
+		visible="true"
+		class="org.freixas.jcalendar.DateListener"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendar_1340277081984"
+		name="JCalendar"
+		description="Custom component: org.freixas.jcalendar.JCalendar"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendar"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendar$1_1340277081984"
+		name="1"
+		description="Custom component: org.freixas.jcalendar.JCalendar$1"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendar$1"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendar$2_1340277081984"
+		name="2"
+		description="Custom component: org.freixas.jcalendar.JCalendar$2"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendar$2"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendar$3_1340277081984"
+		name="3"
+		description="Custom component: org.freixas.jcalendar.JCalendar$3"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendar$3"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendar$4_1340277081984"
+		name="4"
+		description="Custom component: org.freixas.jcalendar.JCalendar$4"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendar$4"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendar$5_1340277081984"
+		name="5"
+		description="Custom component: org.freixas.jcalendar.JCalendar$5"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendar$5"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendar$6_1340277081984"
+		name="6"
+		description="Custom component: org.freixas.jcalendar.JCalendar$6"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendar$6"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendar$ButtonAction_1340277081984"
+		name="ButtonAction"
+		description="Custom component: org.freixas.jcalendar.JCalendar$ButtonAction"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendar$ButtonAction"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendar$DayListener_1340277081984"
+		name="DayListener"
+		description="Custom component: org.freixas.jcalendar.JCalendar$DayListener"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendar$DayListener"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendar$TimeListener_1340277081984"
+		name="TimeListener"
+		description="Custom component: org.freixas.jcalendar.JCalendar$TimeListener"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendar$TimeListener"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo_1340277081984"
+		name="JCalendarCombo"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$1_1340277081984"
+		name="1"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$1"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$1"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$2_1340277081984"
+		name="2"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$2"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$2"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$3_1340277081984"
+		name="3"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$3"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$3"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$4_1340277081984"
+		name="4"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$4"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$4"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$5_1340277081984"
+		name="5"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$5"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$5"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$CalDateListener_1340277081984"
+		name="CalDateListener"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$CalDateListener"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$CalDateListener"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$CalendarComboBoxModel_1340277081984"
+		name="CalendarComboBoxModel"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$CalendarComboBoxModel"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$CalendarComboBoxModel"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$CalendarComboPopup_1340277081984"
+		name="CalendarComboPopup"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$CalendarComboPopup"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$CalendarComboPopup"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$CalendarKeySelectionManager_1340277081984"
+		name="CalendarKeySelectionManager"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$CalendarKeySelectionManager"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$CalendarKeySelectionManager"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$ComboAncestorListener_1340277081984"
+		name="ComboAncestorListener"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$ComboAncestorListener"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$ComboAncestorListener"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$InvocationMouseListener_1340277081984"
+		name="InvocationMouseListener"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$InvocationMouseListener"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$InvocationMouseListener"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$MetalDateComboBoxUI_1340277081984"
+		name="MetalDateComboBoxUI"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$MetalDateComboBoxUI"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$MetalDateComboBoxUI"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$MotifDateComboBoxUI_1340277081984"
+		name="MotifDateComboBoxUI"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$MotifDateComboBoxUI"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$MotifDateComboBoxUI"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="org.freixas.jcalendar.JCalendarCombo$WindowsDateComboBoxUI_1340277081984"
+		name="WindowsDateComboBoxUI"
+		description="Custom component: org.freixas.jcalendar.JCalendarCombo$WindowsDateComboBoxUI"
+		visible="true"
+		class="org.freixas.jcalendar.JCalendarCombo$WindowsDateComboBoxUI"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.toedter.calendar.JCalendar_1340277186859"
+		name="JCalendar"
+		description="Custom component: com.toedter.calendar.JCalendar"
+		visible="true"
+		class="com.toedter.calendar.JCalendar"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.toedter.components.JSpinField_1340277186859"
+		name="JSpinField"
+		description="Custom component: com.toedter.components.JSpinField"
+		visible="true"
+		class="com.toedter.components.JSpinField"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.toedter.calendar.JYearChooser_1340277186859"
+		name="JYearChooser"
+		description="Custom component: com.toedter.calendar.JYearChooser"
+		visible="true"
+		class="com.toedter.calendar.JYearChooser"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.toedter.components.JLocaleChooser_1340277186859"
+		name="JLocaleChooser"
+		description="Custom component: com.toedter.components.JLocaleChooser"
+		visible="true"
+		class="com.toedter.components.JLocaleChooser"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.toedter.calendar.JMonthChooser_1340277186859"
+		name="JMonthChooser"
+		description="Custom component: com.toedter.calendar.JMonthChooser"
+		visible="true"
+		class="com.toedter.calendar.JMonthChooser"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.toedter.calendar.JDateChooser_1340277186859"
+		name="JDateChooser"
+		description="Custom component: com.toedter.calendar.JDateChooser"
+		visible="true"
+		class="com.toedter.calendar.JDateChooser"
+		category="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.toedter.calendar.JDayChooser_1340277186859"
+		name="JDayChooser"
+		description="Custom component: com.toedter.calendar.JDayChooser"
+		visible="true"
+		class="com.toedter.calendar.JDayChooser"
+		category="org.eclipse.wb.swing.system"/>
+</commands>

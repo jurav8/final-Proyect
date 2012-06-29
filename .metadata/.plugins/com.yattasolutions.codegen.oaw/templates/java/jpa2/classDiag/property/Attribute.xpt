@@ -1,0 +1,231 @@
+«IMPORT UMLLabProfile»
+«EXTENSION Utility»
+«IMPORT uml»
+
+«IMPORT Persistency»
+«REM»
+«IMPORT java::standard::classDiag::classifier»
+«IMPORT java::standard»
+«IMPORT java::jpa1::classDiag::assoc»
+«ENDREM»
+
+
+
+«EXTENSION java::jpa1::classDiag::Utility»
+«EXTENSION java::jpa1::classDiag::property::AttributeExtensions»
+«EXTENSION java::standard::classDiag::classifier::ClassifierExtensions»
+
+«REM»
+«DEFINE attribute (JPA2StyledElement style,Classifier parent,MemberFragmentTuple fragment) FOR Property»
+«IF fragment.partId==0»
+«EXPAND attribute_FRG_Declaration(style, parent) FOR this»
+«ELSEIF fragment.partId==1»
+«EXPAND attribute_FRG_Setter(style, parent) FOR this»
+«ELSEIF fragment.partId==2»
+«EXPAND attribute_FRG_Getter(style, parent) FOR this»
+«ENDIF»
+«ENDDEFINE»
+«ENDREM»
+
+
+«DEFINE DISABLED_attribute (JPA1StyledElement style,Classifier parent,MemberFragmentTuple fragment) FOR Property»
+«IF fragment.partId==0»
+«EXPAND DISABLED_attribute_FRG_Declaration(style, parent) FOR this»
+«ELSEIF fragment.partId==1»
+«EXPAND DISABLED_attribute_FRG_Setter(style, parent) FOR this»
+«ELSEIF fragment.partId==2»
+«EXPAND DISABLED_attribute_FRG_Getter(style, parent) FOR this»
+«ENDIF»
+«ENDDEFINE»
+
+«DEFINE DISABLED_attribute_FRG_Declaration(JPA1StyledElement style, Classifier parent)  FOR Property»
+«REM»
+«EXPAND File::import(type.style()) FOR type»
+«IF !isInterface(parent)»
+«EXPAND attributeAnnotations("field-access") FOR this»
+private «IF isTransient() && ! getBooleanAlias(true)»transient «ENDIF»
+«IF upper == 1»
+«type.typeString(this)»
+«ELSEIF upper == -1»
+«EXPAND java::simple::classDiag::assoc::Association::container FOR this»
+«ELSE»
+Codegen error: up to now, only upper bounds 1 and -1 are supported
+«ENDIF»
+ «name»«IF ^default != null» = «^default»«ENDIF»;
+
+«ENDIF»
+«ENDREM»
+«ENDDEFINE»
+
+«DEFINE DISABLED_attribute_FRG_Setter(JPA1StyledElement style, Classifier parent)  FOR Property»
+«REM»
+«EXPAND attributeAnnotations("property-access-setter") FOR this»
+«LET getWordAlias("value") AS value»
+«visibilityString()» 
+«IF isStatic»
+ static«""-»
+«ENDIF»
+ void set«name.methodSuffix()»(«""-»
+«SKIP»
+final «""-» 
+«ENDSKIP»
+«IF upper == 1»
+«type.typeString(this)»
+«ELSE»
+«EXPAND java::simple::classDiag::assoc::Association::container FOR this»
+«ENDIF»
+ «value»)«""-»
+«IF parent.isInterface()»
+;
+«ELSE»
+{
+   «thisName(parent)» = «value»;
+}
+
+«ENDIF»
+«ENDLET»
+«ENDREM»
+«ENDDEFINE»
+
+«DEFINE DISABLED_attribute_FRG_Getter(JPA1StyledElement style, Classifier parent)  FOR Property»
+«REM»
+«EXPAND attributeAnnotations("property-access-getter") FOR this»
+«LET getWordAlias("value") AS value»
+«visibilityString()» 
+«IF isStatic»
+ static«""-»
+«ENDIF»
+«IF upper == 1»
+ «type.typeString(this)»
+«ELSE»
+ «EXPAND java::simple::classDiag::assoc::Association::container FOR this»
+«ENDIF»
+ get«name.methodSuffix()»() «""-»
+«IF parent.isInterface()»
+;
+«ELSE»
+{
+   return «thisName(parent)»;
+}
+
+«ENDIF»
+«ENDLET»
+«ENDREM»
+«ENDDEFINE»
+
+«DEFINE attributeAnnotations(String annotationStyleName) FOR Property»
+«REM»
+«IF accessStyle(annotationStyleName)»
+«GROUP»
+«IF PrimaryKey.isInstance(this)»
+@Id
+«addImport("javax.persistence.Id")»
+«ENDIF»
+«NEXT»
+«IF getAppliedStereotype("Persistency::Column") != null»
+«EXPAND columnProperties FOR (Column)this»
+«ENDIF»
+«NEXT»
+«IF getAppliedStereotype("Persistency::Column") != null»
+«EXPAND java::jpa1::classDiag::property::Attribute::column FOR (Column)this»
+«ENDIF»
+«NEXT»
+«IF getAppliedStereotype("Persistency::Version") != null»
+@Version
+«addImport("javax.persistence.Version")»
+«ENDIF»
+«NEXT»
+«IF getAppliedStereotype("Persistency::Lob") != null»
+@Lob
+«addImport("javax.persistence.Lob")»
+«ENDIF»
+«NEXT»
+«IF SequenceGenerator.isInstance(this)»
+«LET (SequenceGenerator)this AS generator»
+@SequenceGenerator(«""-»
+«GROUP SEPARATOR ", "»
+name="«generator.generatorName»"«""-»
+«NEXT»
+«IF !generator.sequenceName.empty()»
+sequenceName="«generator.sequenceName»"«""-»
+«ENDIF»
+«NEXT»
+«IF generator.initialValue != 1»
+initialValue=«generator.initialValue»«""-»
+«ENDIF»
+«NEXT»
+«IF generator.allocationSize != 50»
+allocationSize=«generator.allocationSize»«""-»
+«ENDIF»
+«ENDGROUP»
+)
+«addImport("javax.persistence.SequenceGenerator")»
+«ENDLET»
+«ENDIF»
+«NEXT»
+«IF getAppliedStereotype("Persistency::GeneratedValueMapping") != null»
+«LET (GeneratedValueMapping)this AS generatedValueMapping»
+@GeneratedValue(strategy=GenerationType.«generatedValueMapping.strategy.name»«""-»
+«IF generatedValueMapping.generator != null»
+, generator="«generatedValueMapping.generator.name»"«""-»
+«ENDIF»
+)
+«addImport("javax.persistence.GeneratedValue")»
+«addImport("javax.persistence.GenerationType")»
+«ENDLET»
+«ENDIF»
+«NEXT»
+«IF (upper == 1)»
+@Basic( «""-»
+«GROUP SEPARATOR ", "»
+«IF getAppliedStereotype("Persistency::FetchStrategy") != null»
+«LET (FetchStrategy)this AS fetchStrategy»
+fetch=FetchType.«fetchStrategy.strategy.name»
+«addImport("javax.persistence.FetchType")»
+«ENDLET»
+«ENDIF»
+«NEXT»
+«IF lower != 0 || getBooleanAlias(false)»
+optional = «IF lower==0»true«ELSE»false«ENDIF»
+«ENDIF»
+«ENDGROUP»
+ )
+«addImport("javax.persistence.Basic")»
+«ELSEIF (upper == -1)»
+@ElementCollection( «""-»
+«FOREACH getIntListAlias(0.upTo(1)) AS b_counter SEPARATOR ", "»
+«IF b_counter == 0»
+«IF getAppliedStereotype("Persistency::FetchStrategy") != null»
+«LET (FetchStrategy)this AS fetchStrategy»
+fetch=FetchType.«fetchStrategy.strategy.name»
+«addImport("javax.persistence.FetchType")»
+«ENDLET»
+«ENDIF»
+«ELSEIF b_counter == 1 && false»
+/* targetType unsupported up to now */
+«ENDIF»
+«ENDFOREACH»
+ )
+«addImport("javax.persistence.ElementCollection")»
+«ENDIF»
+«NEXT»
+«IF Enumeration.isInstance(this.type)»
+«IF getAppliedStereotype("Persistency::EnumerationStyleMapping") != null»
+«LET (EnumerationStyleMapping)this AS enumerationStyleMapping»
+@Enumerated(EnumType.«enumerationStyleMapping.style.name»)
+«ENDLET»
+«addImport("javax.persistence.Enumerated")»
+«addImport("javax.persistence.EnumType")»
+«ENDIF»
+«ENDIF»
+«ENDGROUP»
+«ENDIF»
+«ENDREM»
+«ENDDEFINE»
+
+«DEFINE columnProperties FOR Column»
+«IF isTransient() && getBooleanAlias(true)»
+@Transient
+«addImport("javax.persistence.Transient")»
+«ENDIF»
+«ENDDEFINE»
