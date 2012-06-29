@@ -1,0 +1,63 @@
+«IMPORT uml»
+«IMPORT UMLLabProfile»
+
+«EXTENSION Utility»
+
+«DEFINE type(Element element) FOR Type»
+«EXPAND typeOrVoid(this) FOR element»
+«ENDDEFINE»
+
+«DEFINE typeOrDefault(Type type) FOR Element»
+«IF type==null»String/*No type specified*/«ELSE»«type.typeString(this)»«ENDIF»
+«REM»
+«IF Classifier.isInstance(this)»
+«EXPAND genericDecl FOR (Classifier) this»
+«ENDIF»
+«ENDREM»
+«REM»«IF Generics.isInstance(element)» TODO does not work when this == null«ENDREM»
+«IF getAppliedStereotype("UMLLabProfile::Generics") != null»
+ <«((Generics) this).genericsValue»> «""-»
+«ENDIF»
+«ENDDEFINE»
+
+«DEFINE typeOrVoid(Type type) FOR Element»
+«IF type==null»void«ELSE»«type.typeString(this)»«ENDIF»
+«REM»
+«IF Classifier.isInstance(this)»
+«EXPAND genericDecl FOR (Classifier) this»
+«ENDIF»
+«ENDREM»
+«REM»«IF Generics.isInstance(element)» TODO does not work when this == null«ENDREM»
+«IF getAppliedStereotype("UMLLabProfile::Generics") != null»
+ <«((Generics) this).genericsValue»> «""-»
+«ENDIF»
+«ENDDEFINE»
+
+«DEFINE genericDecl FOR TemplateableElement»
+«IF ownedTemplateSignature != null»
+ <«""-»
+«REM»TODO «((RedefinableTemplateSignature) ownedTemplateSignature).extendedSignature.parameter»«ENDREM»
+«FOREACH ownedTemplateSignature.parameter AS param SEPARATOR ", "»
+«LET (Classifier) param.parameteredElement AS class»
+«class.typeString(this)»
+«IF !class.general.isEmpty»
+ extends «""-»
+«REM»TODO interfaces«ENDREM»
+«FOREACH class.general AS superType SEPARATOR " & "»
+«superType.typeString(this)»
+«ENDFOREACH»
+«ENDIF»
+«ENDLET»
+«ENDFOREACH»
+>«""-»
+«ENDIF»
+«ENDDEFINE»
+
+«DEFINE type1(Element element) FOR Type»
+«typeString(element)»
+«IF element.getAppliedStereotype("UMLLabProfile::Generics") != null»
+«LET (Generics) element AS generic»
+ <«generic.genericsValue»> «""-»
+«ENDLET»
+«ENDIF»
+«ENDDEFINE»

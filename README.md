@@ -1,2 +1,4 @@
-final-Proyect
-=============
+GestorDePacientes
+=================
+
+Proyecto final de programación II
