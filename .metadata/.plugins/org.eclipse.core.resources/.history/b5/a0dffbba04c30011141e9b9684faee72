@@ -1,0 +1,97 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import com.toedter.calendar.JYearChooser;
+import javax.swing.JFormattedTextField;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.JTree;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.border.EtchedBorder;
+import java.awt.Toolkit;
+
+public class VentanaDeHistorial extends JFrame{
+	private JTextField textField;
+	public VentanaDeHistorial() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage(VentanaDeHistorial.class.getResource("/Imagenes/icons/History-Folder-Ash-icon.png")));
+		setResizable(false);
+		setTitle("Historial del paciente");
+		getContentPane().setLayout(null);
+		
+		JLabel lblFecha = new JLabel("Fecha");
+		lblFecha.setBounds(12, 12, 55, 16);
+		getContentPane().add(lblFecha);
+		
+		JLabel lblCausa = new JLabel("Causa");
+		lblCausa.setBounds(12, 65, 55, 16);
+		getContentPane().add(lblCausa);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(12, 86, 256, 70);
+		getContentPane().add(scrollPane);
+		
+		JTextArea textArea = new JTextArea();
+		scrollPane.setViewportView(textArea);
+		
+		textField = new JTextField();
+		textField.setBounds(12, 33, 256, 20);
+		getContentPane().add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblObservaciones = new JLabel("Observaciones");
+		lblObservaciones.setBounds(12, 168, 83, 16);
+		getContentPane().add(lblObservaciones);
+		
+		JScrollPane scrollPane_1 = new JScrollPane();
+		scrollPane_1.setBounds(12, 188, 256, 70);
+		getContentPane().add(scrollPane_1);
+		
+		JTextArea textArea_1 = new JTextArea();
+		scrollPane_1.setViewportView(textArea_1);
+		
+		JLabel lblRecetas = new JLabel("Recetas");
+		lblRecetas.setBounds(12, 270, 83, 16);
+		getContentPane().add(lblRecetas);
+		
+		JScrollPane scrollPane_2 = new JScrollPane();
+		scrollPane_2.setBounds(12, 290, 256, 70);
+		getContentPane().add(scrollPane_2);
+		
+		JTextArea textArea_2 = new JTextArea();
+		scrollPane_2.setViewportView(textArea_2);
+		
+		JLabel lblResultadosDePruba = new JLabel("Resultados de pruebas de laboratorio");
+		lblResultadosDePruba.setBounds(12, 372, 209, 16);
+		getContentPane().add(lblResultadosDePruba);
+		
+		JScrollPane scrollPane_3 = new JScrollPane();
+		scrollPane_3.setBounds(12, 393, 256, 70);
+		getContentPane().add(scrollPane_3);
+		
+		JTextArea textArea_3 = new JTextArea();
+		scrollPane_3.setViewportView(textArea_3);
+		
+		JTree tree = new JTree();
+		tree.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
+		tree.setModel(new DefaultTreeModel(
+			new DefaultMutableTreeNode("2012") {
+				{
+					DefaultMutableTreeNode node_1;
+					node_1 = new DefaultMutableTreeNode("Enero");
+						node_1.add(new DefaultMutableTreeNode("Lunes 16"));
+						node_1.add(new DefaultMutableTreeNode("Domingo 29"));
+					add(node_1);
+					node_1 = new DefaultMutableTreeNode("Julio");
+						node_1.add(new DefaultMutableTreeNode("Domingo 1"));
+						node_1.add(new DefaultMutableTreeNode(""));
+					add(node_1);
+				}
+			}
+		));
+		tree.setBounds(288, 12, 187, 451);
+		getContentPane().add(tree);
+	}
+}

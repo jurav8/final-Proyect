@@ -1,0 +1,10 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+
+public class VentanaDeListaDeMedicos extends JFrame{
+	public VentanaDeListaDeMedicos() {
+		setTitle("Listado de m\u00E9dicos");
+	}
+
+}

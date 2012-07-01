@@ -1,0 +1,35 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import com.toedter.calendar.JYearChooser;
+import javax.swing.JFormattedTextField;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+
+public class VentanaDeHistorial extends JFrame{
+	public VentanaDeHistorial() {
+		setResizable(false);
+		setTitle("Historial del paciente");
+		getContentPane().setLayout(null);
+		
+		JLabel lblFecha = new JLabel("Fecha");
+		lblFecha.setBounds(12, 29, 55, 16);
+		getContentPane().add(lblFecha);
+		
+		JFormattedTextField formattedTextField = new JFormattedTextField();
+		formattedTextField.setBounds(64, 27, 129, 18);
+		getContentPane().add(formattedTextField);
+		
+		JLabel lblCausa = new JLabel("Causa");
+		lblCausa.setBounds(12, 74, 55, 16);
+		getContentPane().add(lblCausa);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(64, 74, 240, 70);
+		getContentPane().add(scrollPane);
+		
+		JTextArea textArea = new JTextArea();
+		scrollPane.setViewportView(textArea);
+	}
+}

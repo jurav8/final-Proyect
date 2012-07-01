@@ -1,0 +1,59 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+import javax.swing.JInternalFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import javax.swing.ImageIcon;
+import javax.swing.JComboBox;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import java.awt.Toolkit;
+
+public class VentanaDeRecetas extends JInternalFrame {
+	public VentanaDeRecetas() {
+		setFrameIcon(new ImageIcon(VentanaDeRecetas.class.getResource("/Imagenes/icons/Drug-basket-icon.png")));
+		setResizable(false);
+		setTitle("Recetas");
+		getContentPane().setLayout(null);
+		setSize(448,219);
+		
+		JLabel lblCdigo = new JLabel("Paciente");
+		lblCdigo.setBounds(10, 22, 63, 14);
+		getContentPane().add(lblCdigo);
+		
+		JLabel lblNombre = new JLabel("Padecimiento");
+		lblNombre.setBounds(211, 22, 81, 14);
+		getContentPane().add(lblNombre);
+		
+		JButton btnAceptar = new JButton("Aceptar");
+		btnAceptar.setIcon(new ImageIcon(VentanaDeRecetas.class.getResource("/Imagenes/icons/Actions-dialog-ok-apply-icon.png")));
+		btnAceptar.setBounds(90, 144, 115, 33);
+		getContentPane().add(btnAceptar);
+		
+		JButton btnCancelar = new JButton("Cancelar");
+		btnCancelar.setIcon(new ImageIcon(VentanaDeRecetas.class.getResource("/Imagenes/icons/Actions-edit-delete-icon.png")));
+		btnCancelar.setBounds(243, 144, 115, 33);
+		getContentPane().add(btnCancelar);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBounds(66, 19, 135, 20);
+		getContentPane().add(comboBox);
+		
+		JComboBox comboBox_1 = new JComboBox();
+		comboBox_1.setBounds(295, 19, 135, 20);
+		getContentPane().add(comboBox_1);
+		
+		JLabel lblMedicamentos = new JLabel("Medicamentos");
+		lblMedicamentos.setBounds(10, 65, 81, 14);
+		getContentPane().add(lblMedicamentos);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(100, 65, 330, 57);
+		getContentPane().add(scrollPane);
+		
+		JTextArea textArea = new JTextArea();
+		scrollPane.setViewportView(textArea);
+	}
+}

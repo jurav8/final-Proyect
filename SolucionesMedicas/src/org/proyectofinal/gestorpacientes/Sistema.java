@@ -8,6 +8,9 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.tool.hbm2ddl.SchemaExport;
 import org.proyectofinal.gestorpacientes.modelo.*;
+import org.proyectofinal.gestorpacientes.vista.VentanaDeBusquedaDePacientes;
+import org.proyectofinal.gestorpacientes.vista.VentanaDeListaDeMedicos;
+import org.proyectofinal.gestorpacientes.vista.VentanaDeResultados;
 import org.proyectofinal.gestorpacientes.vista.VentanaPrincipal;
 
 public class Sistema {
@@ -17,7 +20,7 @@ public class Sistema {
 	 */
 	public static void main(String[] args) {
 		
-		AnnotationConfiguration config = new AnnotationConfiguration();
+	/*	AnnotationConfiguration config = new AnnotationConfiguration();
 		config.addAnnotatedClass(Alergia.class);
 		config.addAnnotatedClass(Asistentes.class);
 		config.addAnnotatedClass(Citas.class);
@@ -49,7 +52,7 @@ public class Sistema {
 		
 		session.persist(medico);
 		session.getTransaction().commit();
-		System.gc();
+		System.gc();*/
 		try {
 			UIManager.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
 		} catch (ClassNotFoundException | InstantiationException
@@ -58,6 +61,7 @@ public class Sistema {
 			e.printStackTrace();
 		}
 		new VentanaPrincipal().setVisible(true);
+		//new VentanaDeBusquedaDePacientes().setVisible(true);
 	}
 
 }

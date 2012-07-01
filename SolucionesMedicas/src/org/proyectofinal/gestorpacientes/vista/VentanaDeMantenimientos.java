@@ -25,14 +25,64 @@ public class VentanaDeMantenimientos extends JInternalFrame{
 	private JTable table_4;
 	private JTable table_5;
 	private JButton btnNewButton;
+	private JTable table_6;
 	public VentanaDeMantenimientos() {
 		setFrameIcon(new ImageIcon(VentanaDeMantenimientos.class.getResource("/Imagenes/icons/Action-configure-iconpeq.png")));
 		setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		setClosable(true);
-		setTitle("Mantenimientos");
+		setTitle("Utilidades");
 		
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		getContentPane().add(tabbedPane, BorderLayout.CENTER);
+		
+		JPanel panel_usuarios = new JPanel();
+		tabbedPane.addTab("Usuarios", null, panel_usuarios, null);
+		panel_usuarios.setLayout(null);
+		
+		JScrollPane scrollPane_6 = new JScrollPane();
+		scrollPane_6.setBounds(0, 65, 677, 354);
+		panel_usuarios.add(scrollPane_6);
+		
+		table_6 = new JTable();
+		table_6.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+				{null, null, null, null},
+			},
+			new String[] {
+				"C\u00F3digo", "Nombre", "Apellido", "C\u00E9dula"
+			}
+		));
+		scrollPane_6.setViewportView(table_6);
+		
+		JButton button = new JButton(" Agregar");
+		button.setIcon(new ImageIcon(VentanaDeMantenimientos.class.getResource("/Imagenes/icons/Action-edit-add-icon.png")));
+		button.setBounds(80, 18, 113, 33);
+		panel_usuarios.add(button);
+		
+		JButton button_1 = new JButton(" Editar");
+		button_1.setIcon(new ImageIcon(VentanaDeMantenimientos.class.getResource("/Imagenes/icons/Edit-icon.png")));
+		button_1.setBounds(282, 18, 113, 33);
+		panel_usuarios.add(button_1);
+		
+		JButton button_2 = new JButton(" Borrar");
+		button_2.setIcon(new ImageIcon(VentanaDeMantenimientos.class.getResource("/Imagenes/icons/Actions-edit-delete-icon.png")));
+		button_2.setBounds(486, 18, 113, 33);
+		panel_usuarios.add(button_2);
 		
 		JPanel panel_pacientes = new JPanel();
 		tabbedPane.addTab("Pacientes", null, panel_pacientes, null);
@@ -221,18 +271,23 @@ public class VentanaDeMantenimientos extends JInternalFrame{
 		
 		JButton button_6 = new JButton("Agregar");
 		button_6.setIcon(new ImageIcon(VentanaDeMantenimientos.class.getResource("/Imagenes/icons/Action-edit-add-icon.png")));
-		button_6.setBounds(80, 18, 113, 33);
+		button_6.setBounds(58, 18, 113, 33);
 		panel_recetas.add(button_6);
 		
 		JButton button_7 = new JButton("Editar");
 		button_7.setIcon(new ImageIcon(VentanaDeMantenimientos.class.getResource("/Imagenes/icons/Edit-icon.png")));
-		button_7.setBounds(282, 18, 113, 33);
+		button_7.setBounds(207, 18, 113, 33);
 		panel_recetas.add(button_7);
 		
 		JButton button_8 = new JButton("Borrar");
 		button_8.setIcon(new ImageIcon(VentanaDeMantenimientos.class.getResource("/Imagenes/icons/Actions-edit-delete-icon.png")));
-		button_8.setBounds(486, 18, 113, 33);
+		button_8.setBounds(361, 18, 113, 33);
 		panel_recetas.add(button_8);
+		
+		JButton btnImprimir = new JButton("Imprimir");
+		btnImprimir.setIcon(new ImageIcon(VentanaDeMantenimientos.class.getResource("/Imagenes/icons/printer-blue-icon.png")));
+		btnImprimir.setBounds(510, 18, 113, 33);
+		panel_recetas.add(btnImprimir);
 		
 		JPanel panel_pruebas = new JPanel();
 		tabbedPane.addTab("Pruebas de laboratorio", null, panel_pruebas, null);

@@ -1,0 +1,92 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import com.toedter.calendar.JYearChooser;
+import javax.swing.JFormattedTextField;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.JTree;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.DefaultMutableTreeNode;
+
+public class VentanaDeHistorial extends JFrame{
+	private JTextField textField;
+	public VentanaDeHistorial() {
+		setResizable(false);
+		setTitle("Historial del paciente");
+		getContentPane().setLayout(null);
+		
+		JLabel lblFecha = new JLabel("Fecha");
+		lblFecha.setBounds(12, 12, 55, 16);
+		getContentPane().add(lblFecha);
+		
+		JLabel lblCausa = new JLabel("Causa");
+		lblCausa.setBounds(12, 57, 55, 16);
+		getContentPane().add(lblCausa);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(12, 78, 260, 70);
+		getContentPane().add(scrollPane);
+		
+		JTextArea textArea = new JTextArea();
+		scrollPane.setViewportView(textArea);
+		
+		textField = new JTextField();
+		textField.setBounds(12, 33, 260, 20);
+		getContentPane().add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblObservaciones = new JLabel("Observaciones");
+		lblObservaciones.setBounds(12, 160, 83, 16);
+		getContentPane().add(lblObservaciones);
+		
+		JScrollPane scrollPane_1 = new JScrollPane();
+		scrollPane_1.setBounds(12, 180, 256, 70);
+		getContentPane().add(scrollPane_1);
+		
+		JTextArea textArea_1 = new JTextArea();
+		scrollPane_1.setViewportView(textArea_1);
+		
+		JLabel lblRecetas = new JLabel("Recetas");
+		lblRecetas.setBounds(12, 262, 83, 16);
+		getContentPane().add(lblRecetas);
+		
+		JScrollPane scrollPane_2 = new JScrollPane();
+		scrollPane_2.setBounds(12, 282, 256, 70);
+		getContentPane().add(scrollPane_2);
+		
+		JTextArea textArea_2 = new JTextArea();
+		scrollPane_2.setViewportView(textArea_2);
+		
+		JLabel lblResultadosDePruba = new JLabel("Resultados de pruba de laboratorio");
+		lblResultadosDePruba.setBounds(12, 364, 195, 16);
+		getContentPane().add(lblResultadosDePruba);
+		
+		JScrollPane scrollPane_3 = new JScrollPane();
+		scrollPane_3.setBounds(12, 385, 256, 70);
+		getContentPane().add(scrollPane_3);
+		
+		JTextArea textArea_3 = new JTextArea();
+		scrollPane_3.setViewportView(textArea_3);
+		
+		JTree tree = new JTree();
+		tree.setModel(new DefaultTreeModel(
+			new DefaultMutableTreeNode("Historial") {
+				{
+					add(new DefaultMutableTreeNode("Mayo"));
+					add(new DefaultMutableTreeNode("Junio"));
+					add(new DefaultMutableTreeNode("Julio"));
+					add(new DefaultMutableTreeNode("Agosto"));
+					add(new DefaultMutableTreeNode("Septiembre"));
+					add(new DefaultMutableTreeNode("Ocutbre"));
+					add(new DefaultMutableTreeNode("Noviembre"));
+					add(new DefaultMutableTreeNode("Diciembre"));
+				}
+			}
+		));
+		tree.setBounds(288, 12, 187, 443);
+		getContentPane().add(tree);
+	}
+}
