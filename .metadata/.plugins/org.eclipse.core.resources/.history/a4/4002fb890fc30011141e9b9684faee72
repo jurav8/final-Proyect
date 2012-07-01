@@ -1,0 +1,13 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JInternalFrame;
+import javax.swing.ImageIcon;
+
+public class VentanaDeUsuarios extends JInternalFrame{
+	public VentanaDeUsuarios() {
+		setClosable(true);
+		setTitle("Usuarios");
+		setFrameIcon(new ImageIcon(VentanaDeUsuarios.class.getResource("/Imagenes/icons/Add-Male-User-icon.png")));
+	}
+
+}

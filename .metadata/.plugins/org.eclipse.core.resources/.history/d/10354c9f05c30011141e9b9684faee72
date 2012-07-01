@@ -1,0 +1,117 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import com.toedter.calendar.JYearChooser;
+import javax.swing.JFormattedTextField;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.JTree;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.border.EtchedBorder;
+import java.awt.Toolkit;
+import java.awt.Font;
+import java.awt.Color;
+import javax.swing.SwingConstants;
+
+public class VentanaDeHistorial extends JFrame{
+	private JTextField textField;
+	public VentanaDeHistorial() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage(VentanaDeHistorial.class.getResource("/Imagenes/icons/History-Folder-Ash-icon.png")));
+		setResizable(false);
+		setTitle("Historial del paciente");
+		getContentPane().setLayout(null);
+		
+		JLabel lblFecha = new JLabel("Fecha");
+		lblFecha.setBounds(12, 44, 55, 16);
+		getContentPane().add(lblFecha);
+		
+		JLabel lblCausa = new JLabel("Causa");
+		lblCausa.setBounds(12, 97, 55, 16);
+		getContentPane().add(lblCausa);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(12, 118, 256, 70);
+		getContentPane().add(scrollPane);
+		
+		JTextArea textArea = new JTextArea();
+		scrollPane.setViewportView(textArea);
+		
+		textField = new JTextField();
+		textField.setBounds(12, 65, 256, 20);
+		getContentPane().add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblObservaciones = new JLabel("Observaciones");
+		lblObservaciones.setBounds(12, 200, 83, 16);
+		getContentPane().add(lblObservaciones);
+		
+		JScrollPane scrollPane_1 = new JScrollPane();
+		scrollPane_1.setBounds(12, 220, 256, 70);
+		getContentPane().add(scrollPane_1);
+		
+		JTextArea textArea_1 = new JTextArea();
+		scrollPane_1.setViewportView(textArea_1);
+		
+		JLabel lblRecetas = new JLabel("Recetas");
+		lblRecetas.setBounds(12, 302, 83, 16);
+		getContentPane().add(lblRecetas);
+		
+		JScrollPane scrollPane_2 = new JScrollPane();
+		scrollPane_2.setBounds(12, 322, 256, 70);
+		getContentPane().add(scrollPane_2);
+		
+		JTextArea textArea_2 = new JTextArea();
+		scrollPane_2.setViewportView(textArea_2);
+		
+		JLabel lblResultadosDePruba = new JLabel("Resultados de pruebas de laboratorio");
+		lblResultadosDePruba.setBounds(12, 404, 209, 16);
+		getContentPane().add(lblResultadosDePruba);
+		
+		JScrollPane scrollPane_3 = new JScrollPane();
+		scrollPane_3.setBounds(12, 425, 256, 70);
+		getContentPane().add(scrollPane_3);
+		
+		JTextArea textArea_3 = new JTextArea();
+		scrollPane_3.setViewportView(textArea_3);
+		
+		JLabel lblFulanito = new JLabel("Fulanito de tal");
+		lblFulanito.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
+		lblFulanito.setHorizontalAlignment(SwingConstants.CENTER);
+		lblFulanito.setForeground(Color.GRAY);
+		lblFulanito.setFont(new Font("Times New Roman", Font.PLAIN, 14));
+		lblFulanito.setBounds(0, 12, 487, 20);
+		getContentPane().add(lblFulanito);
+		
+		JTree tree = new JTree();
+		tree.setModel(new DefaultTreeModel(
+			new DefaultMutableTreeNode("2012") {
+				{
+					DefaultMutableTreeNode node_1;
+					node_1 = new DefaultMutableTreeNode("enero");
+						node_1.add(new DefaultMutableTreeNode("viernes 6"));
+						node_1.add(new DefaultMutableTreeNode("jueves 12"));
+						node_1.add(new DefaultMutableTreeNode("domingo 29"));
+					add(node_1);
+					node_1 = new DefaultMutableTreeNode("junio");
+						node_1.add(new DefaultMutableTreeNode("basketball"));
+						node_1.add(new DefaultMutableTreeNode("soccer"));
+						node_1.add(new DefaultMutableTreeNode("football"));
+						node_1.add(new DefaultMutableTreeNode("hockey"));
+					add(node_1);
+					node_1 = new DefaultMutableTreeNode("julio");
+						node_1.add(new DefaultMutableTreeNode("hot dogs"));
+						node_1.add(new DefaultMutableTreeNode("pizza"));
+						node_1.add(new DefaultMutableTreeNode("ravioli"));
+						node_1.add(new DefaultMutableTreeNode("bananas"));
+					add(node_1);
+				}
+			}
+		));
+		tree.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
+		tree.setBounds(290, 44, 185, 451);
+		getContentPane().add(tree);
+	}
+}

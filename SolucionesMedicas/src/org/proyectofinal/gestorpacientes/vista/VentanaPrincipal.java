@@ -25,17 +25,18 @@ import java.awt.event.ActionEvent;
 import java.awt.Cursor;
 import com.l2fprod.common.swing.JTaskPane;
 import javax.swing.JDesktopPane;
+import java.awt.Toolkit;
 
 public class VentanaPrincipal extends JFrame {
 	private JDesktopPane desktopPane;
 
 	public VentanaPrincipal() {
-		
-		
 		setExtendedState(Frame.MAXIMIZED_BOTH);
+		setIconImage(Toolkit.getDefaultToolkit().getImage(VentanaPrincipal.class.getResource("/Imagenes/icons/logo peq.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setTitle("Soluciones M\u00E9dicas");
 		getContentPane().setLayout(null);
+		getContentPane().setSize(1000, 1000);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setOpaque(false);
@@ -58,7 +59,7 @@ public class VentanaPrincipal extends JFrame {
 		getContentPane().add(desktopPane);
 		
 		final VentanaDeMantenimientos vm=new VentanaDeMantenimientos();
-		vm.setBounds(280, 80, 686, 473);
+		vm.setBounds(280, 80, 687, 473);
 		vm.setLocation(280, 80);
 	    desktopPane.add(vm);
 	    
@@ -100,7 +101,7 @@ public class VentanaPrincipal extends JFrame {
 		btnNewButton.setBounds(555, 8, 170, 55);
 		panel.add(btnNewButton);
 		
-		JButton btnMantenimiento = new JButton("Mantenimientos");
+		JButton btnMantenimiento = new JButton("Utilidades");
 		btnMantenimiento.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnMantenimiento.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {

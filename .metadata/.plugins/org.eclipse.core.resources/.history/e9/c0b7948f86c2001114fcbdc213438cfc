@@ -1,0 +1,9 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+
+public class VentanaDeCitas extends JFrame{
+	public VentanaDeCitas() {
+	}
+
+}

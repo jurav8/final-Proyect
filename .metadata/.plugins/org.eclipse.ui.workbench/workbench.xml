@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="32" version="2.0">
+<workbench progressCount="42" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="139" y="111">
 <fastViewData fastViewLocation="1024"/>
@@ -47,77 +47,91 @@
 <part id="12"/>
 <part id="13"/>
 <part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Alergia.java" partName="Alergia.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java" title="Alergia.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="49" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VentanaPrincipal.java" partName="VentanaPrincipal.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java" title="VentanaPrincipal.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="438"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Asistentes.java" partName="Asistentes.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java" title="Asistentes.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Citas.java" partName="Citas.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java" title="Citas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Especialidad.java" partName="Especialidad.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java" title="Especialidad.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Medico.java" partName="Medico.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java" title="Medico.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Paciente.java" partName="Paciente.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java" title="Paciente.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Padecimientos.java" partName="Padecimientos.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java" title="Padecimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Persona.java" partName="Persona.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java" title="Persona.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PruebaDeLaboratorio.java" partName="PruebaDeLaboratorio.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java" title="PruebaDeLaboratorio.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Recetas.java" partName="Recetas.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java" title="Recetas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResultadoDeLaboratorio.java" partName="ResultadoDeLaboratorio.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java" title="ResultadoDeLaboratorio.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usuario.java" partName="Usuario.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java" title="Usuario.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="541" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VentanaDeMantenimientos.java" partName="VentanaDeMantenimientos.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java" title="VentanaDeMantenimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="121" selectionOffset="873" selectionTopPixel="162"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sistema.java" partName="Sistema.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java" title="Sistema.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1548" selectionTopPixel="456"/>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaDeResultados.java" partName="VentanaDeResultados.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeResultados.java" title="VentanaDeResultados.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeResultados.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeResultados.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="419" selectionTopPixel="68"/>
 </editor>
 <editor id="org.eclipse.wb.core.guiEditor" name="VentanaDeMantenimientos.java" partName="VentanaDeMantenimientos.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java" title="VentanaDeMantenimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="121" selectionOffset="873" selectionTopPixel="51"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1421" selectionTopPixel="272"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaDeListaDeMedicos.java" partName="VentanaDeListaDeMedicos.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeListaDeMedicos.java" title="VentanaDeListaDeMedicos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeListaDeMedicos.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeListaDeMedicos.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="521" selectionTopPixel="68"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaDePadecimientos.java" partName="VentanaDePadecimientos.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePadecimientos.java" title="VentanaDePadecimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePadecimientos.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePadecimientos.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="393" selectionTopPixel="68"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaDePruebas.java" partName="VentanaDePruebas.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePruebas.java" title="VentanaDePruebas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePruebas.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePruebas.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="387" selectionTopPixel="68"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaDeRecetas.java" partName="VentanaDeRecetas.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeRecetas.java" title="VentanaDeRecetas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeRecetas.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeRecetas.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="416" selectionTopPixel="68"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaPrincipal.java" partName="VentanaPrincipal.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java" title="VentanaPrincipal.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1357" selectionTopPixel="16"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VentanaDeBusquedaDePacientes.java" partName="VentanaDeBusquedaDePacientes.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeBusquedaDePacientes.java" title="VentanaDeBusquedaDePacientes.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeBusquedaDePacientes.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeBusquedaDePacientes.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1931" selectionTopPixel="315"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VentanaDeHistorial.java" partName="VentanaDeHistorial.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeHistorial.java" title="VentanaDeHistorial.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeHistorial.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeHistorial.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3157" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaDeHistorial.java" partName="VentanaDeHistorial.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeHistorial.java" title="VentanaDeHistorial.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeHistorial.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeHistorial.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="906" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sistema.java" partName="Sistema.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java" title="Sistema.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2294" selectionTopPixel="354"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaDeBusquedaDePacientes.java" partName="VentanaDeBusquedaDePacientes.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeBusquedaDePacientes.java" title="VentanaDeBusquedaDePacientes.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeBusquedaDePacientes.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeBusquedaDePacientes.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1554" selectionTopPixel="323"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VentanaDeEstadisticas.java" partName="VentanaDeEstadisticas.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeEstadisticas.java" title="VentanaDeEstadisticas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeEstadisticas.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeEstadisticas.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="156" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.wb.core.guiEditor" name="VentanaDeCitas.java" partName="VentanaDeCitas.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeCitas.java" title="VentanaDeCitas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeCitas.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeCitas.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="466" selectionTopPixel="68"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaDePacientes.java" partName="VentanaDePacientes.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePacientes.java" title="VentanaDePacientes.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePacientes.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePacientes.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="770" selectionTopPixel="68"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VentanaDeUsuarios.java" partName="VentanaDeUsuarios.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeUsuarios.java" title="VentanaDeUsuarios.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeUsuarios.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeUsuarios.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2192" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wb.core.guiEditor" name="VentanaDeUsuarios.java" partName="VentanaDeUsuarios.java" path="D:/Documents and Settings/Savi/Mis documentos/Dropbox/Proyecto Final/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeUsuarios.java" title="VentanaDeUsuarios.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeUsuarios.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeUsuarios.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3145" selectionTopPixel="1105"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (22 items)"/>
+<category IMemento.internal.id="Warnings (88 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="75" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.resourceField="75" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -185,7 +199,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.wb.core.guiEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
@@ -303,7 +317,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.18024692" ratioLeft="219" ratioRight="996" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.24938272" ratioLeft="303" ratioRight="912" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.75" ratioLeft="492" ratioRight="164" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
@@ -354,175 +368,161 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/controlador/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaDePacientes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/modelo/entidades/Alergia.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/modelo/entidades/Asistentes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/modelo/entidades/Citas.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/controlador/Sistema.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/Sistema.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeUsuarios.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePacientes.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeCitas.java"/>
 </editors>
-<item historyLabel="VentanaPrincipal.java" index="0">
-<position info="not_deleted" x="2172" y="0"/>
+<item historyLabel="VentanaDeUsuarios.java" index="0">
+<position info="not_deleted" x="3299" y="0"/>
 </item>
-<item historyLabel="Main.java" index="1">
+<item historyLabel="VentanaDeUsuarios.java" index="0">
+<position info="not_deleted" x="3544" y="0"/>
+</item>
+<item historyLabel="VentanaDeUsuarios.java" index="0">
+<position info="not_deleted" x="3145" y="0"/>
+</item>
+<item historyLabel="VentanaPrincipal.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
 <position/>
 </item>
-<item historyLabel="Main.java" index="2">
-<position info="not_deleted" x="501" y="112"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="VentanaPrincipal.java" index="0">
-<position info="not_deleted" x="1163" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="4949" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="3">
-<position info="not_deleted" x="1023" y="20"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="5930" y="0"/>
 </item>
-<item historyLabel="VentanaPrincipal.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="4949" y="0"/>
 </item>
-<item historyLabel="VentanaDePacientes.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="5085" y="0"/>
 </item>
-<item historyLabel="Alergia.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="5199" y="0"/>
 </item>
-<item historyLabel="Asistentes.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="5085" y="0"/>
 </item>
-<item historyLabel="Citas.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="5199" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="5930" y="0"/>
 </item>
-<item historyLabel="VentanaDePacientes.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="6183" y="0"/>
 </item>
-<item historyLabel="VentanaPrincipal.java" index="10">
-<position info="not_deleted" x="1134" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="6428" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="2228" y="0"/>
 </item>
-<item historyLabel="VentanaDePacientes.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="VentanaPrincipal.java" index="10">
-<position info="not_deleted" x="996" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="Sistema.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="Sistema.java" index="11">
-<position info="not_deleted" x="0" y="641"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="Sistema.java" index="12">
-<position info="not_deleted" x="46" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="VentanaPrincipal.java" index="10">
-<position info="not_deleted" x="996" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="VentanaDePacientes.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="VentanaDePacientes.java" index="5">
-<position info="not_deleted" x="1384" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="1358" y="0"/>
 </item>
-<item historyLabel="Alergia.java" index="13">
-<position info="not_deleted" x="51" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="3071" y="0"/>
 </item>
-<item historyLabel="Alergia.java" index="13">
-<position info="not_deleted" x="222" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="Alergia.java" index="13">
-<position info="not_deleted" x="0" y="49"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="2750" y="0"/>
 </item>
-<item historyLabel="Asistentes.java" index="14">
-<position info="not_deleted" x="49" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="3007" y="0"/>
 </item>
-<item historyLabel="Citas.java" index="15">
-<position info="not_deleted" x="49" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="4189" y="0"/>
 </item>
-<item historyLabel="Especialidad.java" index="16">
-<position info="not_deleted" x="49" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="Medico.java" index="17">
-<position info="not_deleted" x="49" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="2273" y="0"/>
 </item>
-<item historyLabel="Paciente.java" index="18">
-<position info="not_deleted" x="49" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position/>
 </item>
-<item historyLabel="Padecimientos.java" index="19">
-<position info="not_deleted" x="49" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="1588" y="0"/>
 </item>
-<item historyLabel="Persona.java" index="20">
-<position info="not_deleted" x="49" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="1538" y="0"/>
 </item>
-<item historyLabel="PruebaDeLaboratorio.java" index="21">
-<position info="not_deleted" x="49" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="3355" y="0"/>
 </item>
-<item historyLabel="Recetas.java" index="22">
-<position info="not_deleted" x="49" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="3153" y="0"/>
 </item>
-<item historyLabel="ResultadoDeLaboratorio.java" index="23">
-<position info="not_deleted" x="49" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="1421" y="0"/>
 </item>
-<item historyLabel="Usuario.java" index="24">
-<position info="not_deleted" x="541" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="2273" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="25">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="2514" y="0"/>
 </item>
-<item historyLabel="Sistema.java" index="26">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="2750" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="25">
-<position info="not_deleted" x="873" y="121"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="1421" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="27">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="1538" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="27">
-<position info="not_deleted" x="837" y="0"/>
+<item historyLabel="VentanaDeMantenimientos.java" index="2">
+<position info="not_deleted" x="1421" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="27">
-<position info="not_deleted" x="1255" y="0"/>
+<item historyLabel="VentanaDePacientes.java" index="3">
+<position info="not_deleted" x="2526" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="27">
-<position info="not_deleted" x="837" y="0"/>
+<item historyLabel="VentanaDePacientes.java" index="3">
+<position info="not_deleted" x="770" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="27">
-<position info="not_deleted" x="4178" y="0"/>
+<item historyLabel="VentanaDePacientes.java" index="3">
+<position info="not_deleted" x="4579" y="0"/>
 </item>
-<item historyLabel="VentanaDeMantenimientos.java" index="27">
-<position info="not_deleted" x="873" y="121"/>
+<item historyLabel="VentanaDePacientes.java" index="3">
+<position info="not_deleted" x="770" y="0"/>
 </item>
-<item active="true" historyLabel="Sistema.java" index="26">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="VentanaDeCitas.java" index="4">
+<position info="not_deleted" x="466" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -551,50 +551,47 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDeMantenimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDeUsuarios.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeUsuarios.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeUsuarios.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDePacientes.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePacientes.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePacientes.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDeCitas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeCitas.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeCitas.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VentanaDeEstadisticas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeEstadisticas.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeEstadisticas.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDeBusquedaDePacientes.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeBusquedaDePacientes.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeBusquedaDePacientes.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDeFoto.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeFoto.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeFoto.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sistema.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java">
 <persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/Sistema.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usuario.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Usuario.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDeHistorial.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeHistorial.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeHistorial.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResultadoDeLaboratorio.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/ResultadoDeLaboratorio.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaPrincipal.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaPrincipal.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Recetas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Recetas.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDeRecetas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeRecetas.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeRecetas.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PruebaDeLaboratorio.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/PruebaDeLaboratorio.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDePruebas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePruebas.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePruebas.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Persona.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Persona.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDePadecimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePadecimientos.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDePadecimientos.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Padecimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Padecimientos.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDeListaDeMedicos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeListaDeMedicos.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeListaDeMedicos.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Paciente.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Paciente.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Medico.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Medico.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Especialidad.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Especialidad.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Citas.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Citas.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Asistentes.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Asistentes.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Alergia.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java">
-<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/modelo/Alergia.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sistema.java" tooltip="SolucionesMedicas/org/proyectofinal/gestorpacientes/Sistema.java">
-<persistable path="/SolucionesMedicas/org/proyectofinal/gestorpacientes/Sistema.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wb.core.guiEditor" name="VentanaDeMantenimientos.java" tooltip="SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java">
+<persistable path="/SolucionesMedicas/src/org/proyectofinal/gestorpacientes/vista/VentanaDeMantenimientos.java"/>
 </file>
 </mruList>
 </workbench>

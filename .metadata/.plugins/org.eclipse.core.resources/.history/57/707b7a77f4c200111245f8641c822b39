@@ -1,0 +1,10 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+
+public class VentanaDeBusquedaDePacientes extends JFrame{
+	public VentanaDeBusquedaDePacientes() {
+		setTitle("B\u00FAsqueda de pacientes");
+	}
+
+}

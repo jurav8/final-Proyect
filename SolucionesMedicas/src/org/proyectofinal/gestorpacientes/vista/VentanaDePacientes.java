@@ -129,6 +129,7 @@ public class VentanaDePacientes extends JInternalFrame {
 		getContentPane().add(btnAceptar);
 		
 		JButton btnCancelar = new JButton("Cancelar");
+		btnCancelar.setIcon(new ImageIcon(VentanaDePacientes.class.getResource("/Imagenes/icons/Actions-edit-delete-icon.png")));
 		btnCancelar.setBounds(236, 420, 113, 33);
 		getContentPane().add(btnCancelar);
 	}
