@@ -5,6 +5,8 @@ import java.util.GregorianCalendar;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 
 import org.hibernate.annotations.GenericGenerator;
 @Entity
@@ -17,17 +19,19 @@ public class Citas {
 	private GregorianCalendar fecha;
 	private String hora;
 	private String causa;
-	private int idPaciente;
-	private int idMedico;
+	@OneToOne
+	@JoinColumn(name = "paciente_id")
+	private Paciente idPaciente;
+	@OneToOne
+	@JoinColumn(name = "medico_id")
+	private Medico idMedico;
 	
 	public Citas(GregorianCalendar fecha, String hora,
-			String causa, int idPaciente, int idMedico) {
+			String causa) {
 		super();
 		this.fecha = fecha;
 		this.hora = hora;
 		this.causa = causa;
-		this.idPaciente = idPaciente;
-		this.idMedico = idMedico;
 	}
 	
 	public int getIdCitas() {
@@ -42,12 +46,6 @@ public class Citas {
 	public String getCausa() {
 		return causa;
 	}
-	public int getIdPaciente() {
-		return idPaciente;
-	}
-	public int getIdMedico() {
-		return idMedico;
-	}
 	public void setIdCitas(int idCitas) {
 		this.idCitas = idCitas;
 	}
@@ -60,11 +58,21 @@ public class Citas {
 	public void setCausa(String causa) {
 		this.causa = causa;
 	}
-	public void setIdPaciente(int idPaciente) {
-		this.idPaciente = idPaciente;
+
+	public Medico getIdMedico() {
+		return idMedico;
 	}
-	public void setIdMedico(int idMedico) {
+
+	public void setIdMedico(Medico idMedico) {
 		this.idMedico = idMedico;
+	}
+
+	public Paciente getIdPaciente() {
+		return idPaciente;
+	}
+
+	public void setIdPaciente(Paciente idPaciente) {
+		this.idPaciente = idPaciente;
 	}
 	
 	

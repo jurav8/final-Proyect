@@ -3,6 +3,8 @@ package org.proyectofinal.gestorpacientes.modelo;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -14,15 +16,16 @@ public class Recetas {
 	@GeneratedValue(generator="persona")
 	private int idReceta;
 	private String medicamentos;
-	private int idPadecimientos;
-	private int idPaciente;
+	@OneToOne
+	@JoinColumn(name = "padecimiento_id")
+	private Padecimientos idPadecimientos;
+	@OneToOne
+	@JoinColumn(name = "paciente_id")
+	private Paciente idPaciente;
 	
-	public Recetas(String medicamentos, int idPadecimientos,
-			int idPaciente) {
+	public Recetas(String medicamentos) {
 		super();
 		this.medicamentos = medicamentos;
-		this.idPadecimientos = idPadecimientos;
-		this.idPaciente = idPaciente;
 	}
 	
 	public int getIdReceta() {
@@ -31,22 +34,26 @@ public class Recetas {
 	public String getMedicamentos() {
 		return medicamentos;
 	}
-	public int getIdPadecimientos() {
-		return idPadecimientos;
-	}
-	public int getIdPaciente() {
-		return idPaciente;
-	}
 	public void setIdReceta(int idReceta) {
 		this.idReceta = idReceta;
 	}
 	public void setMedicamentos(String medicamentos) {
 		this.medicamentos = medicamentos;
 	}
-	public void setIdPadecimientos(int idPadecimientos) {
+
+	public Padecimientos getIdPadecimientos() {
+		return idPadecimientos;
+	}
+
+	public void setIdPadecimientos(Padecimientos idPadecimientos) {
 		this.idPadecimientos = idPadecimientos;
 	}
-	public void setIdPaciente(int idPaciente) {
+
+	public Paciente getIdPaciente() {
+		return idPaciente;
+	}
+
+	public void setIdPaciente(Paciente idPaciente) {
 		this.idPaciente = idPaciente;
 	}
 }

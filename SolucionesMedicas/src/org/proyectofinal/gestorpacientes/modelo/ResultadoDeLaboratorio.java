@@ -3,6 +3,8 @@ package org.proyectofinal.gestorpacientes.modelo;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -13,17 +15,16 @@ public class ResultadoDeLaboratorio {
 	@GenericGenerator(name="persona" , strategy="increment")
 	@GeneratedValue(generator="persona")
 	private int idResultadoLaboratorio;
-	private int idPruebaLaboratorio;
-	private int idPadecimiento;
-	private int idPrueba;
+	@OneToOne
+	@JoinColumn(name = "pruebaLaboratorio_id")
+	private PruebaDeLaboratorio idPruebaLaboratorio;
+	@OneToOne
+	@JoinColumn(name = "paciente_id")
+	private Paciente idPaciente;
 	private String resultado;
 	
-	public ResultadoDeLaboratorio(int idPruebaLaboratorio, int idPadecimiento,
-			int idPrueba, String resultado) {
+	public ResultadoDeLaboratorio(String resultado) {
 		super();
-		this.idPruebaLaboratorio = idPruebaLaboratorio;
-		this.idPadecimiento = idPadecimiento;
-		this.idPrueba = idPrueba;
 		this.resultado = resultado;
 	}
 
@@ -34,36 +35,25 @@ public class ResultadoDeLaboratorio {
 	public void setIdResultadoLaboratorio(int idResultadoLaboratorio) {
 		this.idResultadoLaboratorio = idResultadoLaboratorio;
 	}
-	public int getIdPruebaLaboratorio() {
-		return idPruebaLaboratorio;
-	}
-
-	public int getIdPadecimiento() {
-		return idPadecimiento;
-	}
-
-	public int getIdPrueba() {
-		return idPrueba;
-	}
-
 	public String getResultado() {
 		return resultado;
 	}
-
-	public void setIdPruebaLaboratorio(int idPruebaLaboratorio) {
-		this.idPruebaLaboratorio = idPruebaLaboratorio;
-	}
-
-	public void setIdPadecimiento(int idPadecimiento) {
-		this.idPadecimiento = idPadecimiento;
-	}
-
-	public void setIdPrueba(int idPrueba) {
-		this.idPrueba = idPrueba;
-	}
-
 	public void setResultado(String resultado) {
 		this.resultado = resultado;
+	}
+	public Paciente getIdPaciente() {
+		return idPaciente;
+	}
+	public void setIdPaciente(Paciente idPaciente) {
+		this.idPaciente = idPaciente;
+	}
+
+	public PruebaDeLaboratorio getIdPruebaLaboratorio() {
+		return idPruebaLaboratorio;
+	}
+
+	public void setIdPruebaLaboratorio(PruebaDeLaboratorio idPruebaLaboratorio) {
+		this.idPruebaLaboratorio = idPruebaLaboratorio;
 	}
 	
 	

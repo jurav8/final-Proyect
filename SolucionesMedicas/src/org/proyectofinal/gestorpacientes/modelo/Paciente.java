@@ -1,19 +1,25 @@
 package org.proyectofinal.gestorpacientes.modelo;
 
+import java.util.ArrayList;
 import java.util.GregorianCalendar;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="persona")
+@Table(name="Paciente")
 public class Paciente extends Persona {
 
 	private GregorianCalendar fechaNacimiento;
 	private int fumador;
 	private String nombreFoto;
-	private int idAlergias;
-	private int idPadecimientos;
+	@OneToMany(mappedBy="alergiaPaciente",targetEntity=Alergia.class,cascade=CascadeType.ALL)
+	private List<Alergia> alergia= new ArrayList<>();
+	@OneToMany(mappedBy="padecimientoPaciente",targetEntity=Padecimientos.class,cascade=CascadeType.ALL)
+	private List<Padecimientos> padecimientos = new ArrayList<>();
 	
 	public GregorianCalendar getFechaNacimiento() {
 		return fechaNacimiento;
@@ -24,12 +30,6 @@ public class Paciente extends Persona {
 	public String getNombreFoto() {
 		return nombreFoto;
 	}
-	public int getIdAlergias() {
-		return idAlergias;
-	}
-	public int getIdPadecimientos() {
-		return idPadecimientos;
-	}
 	public void setFechaNacimiento(GregorianCalendar fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento;
 	}
@@ -39,12 +39,17 @@ public class Paciente extends Persona {
 	public void setNombreFoto(String nombreFoto) {
 		this.nombreFoto = nombreFoto;
 	}
-	public void setIdAlergias(int idAlergias) {
-		this.idAlergias = idAlergias;
+	public List<Alergia> getAlergia() {
+		return alergia;
 	}
-	public void setIdPadecimientos(int idPadecimientos) {
-		this.idPadecimientos = idPadecimientos;
+	public void addAlergia(Alergia alergia) {
+		this.alergia.add(alergia);
 	}
-	
+	public List<Padecimientos> getPadecimientos() {
+		return padecimientos;
+	}
+	public void addPadecimientos(Padecimientos padecimientos) {
+		this.padecimientos.add(padecimientos);
+	}
 	
 }

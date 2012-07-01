@@ -15,6 +15,10 @@ public class Usuario {
 	private int idUsuario;
 	private String usuario;
 	private String clave;
+	
+	public Usuario(){
+		
+	}
 
 	public Usuario(String usuario, String clave) {
 		super();
