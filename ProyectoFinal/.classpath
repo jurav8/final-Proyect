@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/log4j.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/WorkProEc/ProyectoFinal/Plugin/slf4j-log4j12.jar"/>
+	<classpathentry kind="lib" path="Plugin/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
