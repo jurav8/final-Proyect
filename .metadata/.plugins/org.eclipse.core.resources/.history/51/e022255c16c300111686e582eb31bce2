@@ -1,0 +1,67 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JInternalFrame;
+import javax.swing.ImageIcon;
+import java.awt.FlowLayout;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
+
+public class VentanaDeUsuarios extends JInternalFrame{
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+	private JTextField textField_3;
+	public VentanaDeUsuarios() {
+		setClosable(true);
+		setTitle("Usuarios");
+		setFrameIcon(new ImageIcon(VentanaDeUsuarios.class.getResource("/Imagenes/icons/Add-Male-User-icon.png")));
+		getContentPane().setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("C\u00F3digo de empleado");
+		lblNewLabel.setBounds(12, 12, 131, 16);
+		getContentPane().add(lblNewLabel);
+		
+		textField = new JTextField();
+		textField.setBounds(12, 33, 145, 20);
+		getContentPane().add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblNombre = new JLabel("Nombre");
+		lblNombre.setBounds(12, 144, 55, 16);
+		getContentPane().add(lblNombre);
+		
+		textField_1 = new JTextField();
+		textField_1.setBounds(12, 165, 145, 20);
+		getContentPane().add(textField_1);
+		textField_1.setColumns(10);
+		
+		textField_2 = new JTextField();
+		textField_2.setColumns(10);
+		textField_2.setBounds(12, 95, 145, 20);
+		getContentPane().add(textField_2);
+		
+		JLabel lblApellido = new JLabel("Nombre");
+		lblApellido.setBounds(12, 74, 55, 16);
+		getContentPane().add(lblApellido);
+		
+		textField_3 = new JTextField();
+		textField_3.setColumns(10);
+		textField_3.setBounds(186, 95, 145, 20);
+		getContentPane().add(textField_3);
+		
+		JLabel lblTelfono = new JLabel("Apellido");
+		lblTelfono.setBounds(186, 74, 55, 16);
+		getContentPane().add(lblTelfono);
+		
+		JLabel lblNewLabel_1 = new JLabel("Perfil");
+		lblNewLabel_1.setBounds(186, 12, 55, 16);
+		getContentPane().add(lblNewLabel_1);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Administrador", "Asistente", "M\u00E9dico"}));
+		comboBox.setBounds(186, 32, 145, 21);
+		getContentPane().add(comboBox);
+	}
+}

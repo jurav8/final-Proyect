@@ -1,0 +1,8 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+
+public class VentanaDeFoto extends JFrame{
+
+	String 
+}

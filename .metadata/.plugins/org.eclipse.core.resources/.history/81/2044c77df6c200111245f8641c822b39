@@ -1,0 +1,23 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class VentanaDeBusquedaDePacientes extends JFrame{
+	private JTextField textField;
+	public VentanaDeBusquedaDePacientes() {
+		setResizable(false);
+		setTitle("B\u00FAsqueda de pacientes");
+		getContentPane().setLayout(null);
+		
+		JLabel lblBuscar = new JLabel("Buscar");
+		lblBuscar.setBounds(12, 25, 55, 16);
+		getContentPane().add(lblBuscar);
+		
+		textField = new JTextField();
+		textField.setBounds(64, 23, 351, 20);
+		getContentPane().add(textField);
+		textField.setColumns(10);
+	}
+}

@@ -1,0 +1,20 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JInternalFrame;
+import javax.swing.ImageIcon;
+import java.awt.FlowLayout;
+import javax.swing.JLabel;
+
+public class VentanaDeUsuarios extends JInternalFrame{
+	public VentanaDeUsuarios() {
+		setClosable(true);
+		setTitle("Usuarios");
+		setFrameIcon(new ImageIcon(VentanaDeUsuarios.class.getResource("/Imagenes/icons/Add-Male-User-icon.png")));
+		getContentPane().setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("C\u00F3digo de empleado");
+		lblNewLabel.setBounds(12, 12, 55, 16);
+		getContentPane().add(lblNewLabel);
+	}
+
+}

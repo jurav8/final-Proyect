@@ -1,0 +1,7 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+
+public class VentanaDeListaDeMedicos extends JFrame{
+
+}

@@ -1,0 +1,85 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
+import javax.swing.ImageIcon;
+import javax.swing.JScrollPane;
+import java.awt.Font;
+import java.awt.Color;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.JButton;
+import java.awt.Toolkit;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+public class VentanaDeBusquedaDePacientes extends JFrame{
+	private JTextField textField;
+	private JTable table;
+	public VentanaDeBusquedaDePacientes() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage(VentanaDeBusquedaDePacientes.class.getResource("/Imagenes/icons/Actions-edit-find-user-icon.png")));
+		setResizable(false);
+		setTitle("B\u00FAsqueda de pacientes");
+		getContentPane().setLayout(null);
+		
+		JLabel lblBuscar = new JLabel("Buscar");
+		lblBuscar.setIcon(new ImageIcon(VentanaDeBusquedaDePacientes.class.getResource("/Imagenes/icons/search-icon.png")));
+		lblBuscar.setBounds(12, 25, 73, 16);
+		getContentPane().add(lblBuscar);
+		
+		textField = new JTextField();
+		textField.setBounds(82, 23, 219, 20);
+		getContentPane().add(textField);
+		textField.setColumns(10);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(12, 86, 403, 387);
+		getContentPane().add(scrollPane);
+		
+		table = new JTable();
+		table.addMouseListener(new MouseAdapter() {
+			public void mouseClicked(MouseEvent arg0) {
+				JOptionPane.showMessageDialog(null,"hi");
+			}
+		});
+		table.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+				{null, null, null},
+			},
+			new String[] {
+				"Nombre", "Apellido", "C\u00E9dula"
+			}
+		));
+		scrollPane.setViewportView(table);
+		
+		JLabel lblPorNombreApellido = new JLabel(" (Por nombre, apellido y/o c\u00E9dula)");
+		lblPorNombreApellido.setForeground(Color.GRAY);
+		lblPorNombreApellido.setFont(new Font("Dialog", Font.ITALIC, 12));
+		lblPorNombreApellido.setBounds(97, 43, 186, 16);
+		getContentPane().add(lblPorNombreApellido);
+		
+		JButton btnNewButton = new JButton("Ver historial");
+		btnNewButton.setIcon(new ImageIcon(VentanaDeBusquedaDePacientes.class.getResource("/Imagenes/icons/History-Folder-Ash-icon.png")));
+		btnNewButton.setBounds(312, 22, 103, 30);
+		getContentPane().add(btnNewButton);
+	}
+}

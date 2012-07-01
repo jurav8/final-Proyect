@@ -1,0 +1,13 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import javax.swing.JFrame;
+
+public class VentanaDeHistorial extends JFrame{
+	public VentanaDeHistorial() {
+		setResizable(false);
+		setTitle("Historial del paciente");
+		getContentPane().setLayout(null);
+	}
+	
+
+}

@@ -1,0 +1,17 @@
+package org.proyectofinal.gestorpacientes.vista;
+
+import java.awt.HeadlessException;
+
+import javax.swing.JFrame;
+
+public class VentanaDeFoto extends JFrame{
+
+	String foto;
+
+	public VentanaDeFoto(String foto) throws HeadlessException {
+		super();
+		this.foto = foto;
+	}
+	
+	
+}

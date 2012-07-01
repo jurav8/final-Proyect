@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.swing.JInternalFrame"/>
 <fullyQualifiedTypeName name="org.proyectofinal.gestorpacientes.vista.Ejemplo"/>
 <fullyQualifiedTypeName name="org.proyectofinal.gestorpacientes.vista.VentanaPrincipal"/>
 <fullyQualifiedTypeName name="org.proyectofinal.gestorpacientes.vista.VentanaDePacientes"/>
-<fullyQualifiedTypeName name="javax.swing.JFrame"/>
 <fullyQualifiedTypeName name="org.ssj.gestordepacientes.Entidades.Alergia"/>
 <fullyQualifiedTypeName name="org.proyectofinal.gestorpacientes.modelo.entidades.Alergia"/>
 <fullyQualifiedTypeName name="org.proyectofinal.gestorpacientes.modelo.Medico"/>
@@ -15,4 +13,10 @@
 <fullyQualifiedTypeName name="org.proyectofinal.gestorpacientes.modelo.ResultadoDeLaboratorio"/>
 <fullyQualifiedTypeName name="org.proyectofinal.gestorpacientes.modelo.Recetas"/>
 <fullyQualifiedTypeName name="org.hibernate.cfg.AnnotationConfiguration"/>
+<fullyQualifiedTypeName name="org.proyectofinal.gestorpacientes.vista.VentanaDeResultados"/>
+<fullyQualifiedTypeName name="org.proyectofinal.gestorpacientes.vista.VentanaDeListaDeMedicos"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="org.proyectofinal.gestorpacientes.vista.VentanaDeBusquedaDePacientes"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JInternalFrame"/>
 </qualifiedTypeNameHistroy>
