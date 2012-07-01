@@ -11,7 +11,7 @@
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="connection.url">jdbc:mysql://localhost:3306/gestor</property>
         <property name="connection.username">root</property>
-        <property name="connection.password">jel1980</property>
+        <property name="connection.password"></property>
         <property name="hibernate.default_schema">gestor</property>
 
         <!-- JDBC connection pool (use the built-in) -->
