@@ -136,8 +136,6 @@ public class Controller {
 		cita.setIdMedico(medico);
 		cita.setIdPaciente(paciente);
 		
-		session.save(paciente);
-		session.save(medico);
 		session.save(cita);
 		session.getTransaction().commit();
 	}
