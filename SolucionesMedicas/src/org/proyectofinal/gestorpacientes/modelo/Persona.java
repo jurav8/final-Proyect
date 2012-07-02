@@ -24,8 +24,6 @@ public abstract  class Persona {
 	private String direccion;
 	private String cedula;
 
-	
-	
 	public int getId() {
 		return id;
 	}

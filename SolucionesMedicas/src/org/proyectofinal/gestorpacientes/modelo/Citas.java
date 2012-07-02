@@ -7,9 +7,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
+import javax.persistence.PersistenceUnit;
 
 import org.hibernate.annotations.GenericGenerator;
+
 @Entity
+@PersistenceUnit(name="priueba")
 public class Citas {
 	
 	@Id
@@ -25,14 +28,6 @@ public class Citas {
 	@OneToOne
 	@JoinColumn(name = "medico_id")
 	private Medico idMedico;
-	
-	public Citas(GregorianCalendar fecha, String hora,
-			String causa) {
-		super();
-		this.fecha = fecha;
-		this.hora = hora;
-		this.causa = causa;
-	}
 	
 	public int getIdCitas() {
 		return idCitas;

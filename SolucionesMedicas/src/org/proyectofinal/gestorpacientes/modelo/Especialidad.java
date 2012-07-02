@@ -21,8 +21,7 @@ public class Especialidad {
 	@ManyToOne
 	@JoinColumn(name="medico_id")
 	private Medico medico;
-	
-	
+			
 	public int getCodigoEspecialidad() {
 		return codigoEspecialidad;
 	}

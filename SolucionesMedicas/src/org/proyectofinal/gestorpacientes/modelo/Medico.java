@@ -1,7 +1,7 @@
 package org.proyectofinal.gestorpacientes.modelo;
 
 import java.util.ArrayList;
-import java.util.Collection;
+import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -19,19 +19,24 @@ public class Medico extends Persona{
 	@JoinColumn(name = "usuario_id")
 	private Usuario usuario;
 	@OneToMany(mappedBy="medico",targetEntity=Especialidad.class,fetch=FetchType.EAGER,cascade=CascadeType.ALL)
-	private Collection<Especialidad> especialidades = new ArrayList<Especialidad>();
+	private List<Especialidad> especialidades; 
 	
-	public Collection<Especialidad> getEspecialidades() {
-		return especialidades;
+	public Medico(){
+		especialidades = new ArrayList<Especialidad>();
 	}
-	public void addEspecialidades(Especialidad especialidades) {
-		this.especialidades.add(especialidades);
+	
+	public List<Especialidad> getEspecialidades() {
+		return especialidades;
 	}
 	public Usuario getUsuario() {
 		return usuario;
 	}
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
+	}
+
+	public void setEspecialidades(List<Especialidad> especialidades) {
+		this.especialidades = especialidades;
 	}	
 	
 	

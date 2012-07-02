@@ -19,7 +19,7 @@ public class Paciente extends Persona {
 	@OneToMany(mappedBy="alergiaPaciente",targetEntity=Alergia.class,cascade=CascadeType.ALL)
 	private List<Alergia> alergia= new ArrayList<>();
 	@OneToMany(mappedBy="padecimientoPaciente",targetEntity=Padecimientos.class,cascade=CascadeType.ALL)
-	private List<Padecimientos> padecimientos = new ArrayList<>();
+	private List<Padecimientos> padecimientos;
 	
 	public GregorianCalendar getFechaNacimiento() {
 		return fechaNacimiento;
@@ -42,14 +42,15 @@ public class Paciente extends Persona {
 	public List<Alergia> getAlergia() {
 		return alergia;
 	}
-	public void addAlergia(Alergia alergia) {
-		this.alergia.add(alergia);
-	}
 	public List<Padecimientos> getPadecimientos() {
 		return padecimientos;
 	}
-	public void addPadecimientos(Padecimientos padecimientos) {
-		this.padecimientos.add(padecimientos);
+	public void setAlergia(List<Alergia> alergia) {
+		this.alergia = alergia;
 	}
+	public void setPadecimientos(List<Padecimientos> padecimientos) {
+		this.padecimientos = padecimientos;
+	}
+	
 	
 }

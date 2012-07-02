@@ -19,7 +19,7 @@ public class Padecimientos {
 	@ManyToOne
 	@JoinColumn(name="paciente_id")
 	private Paciente padecimientoPaciente;
-	
+
 	public int getIdPadecimiento() {
 		return idPadecimiento;
 	}

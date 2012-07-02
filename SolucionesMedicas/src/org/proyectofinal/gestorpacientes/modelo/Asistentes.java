@@ -13,6 +13,7 @@ public class Asistentes  extends Persona {
 	@JoinColumn(name = "usuario_id")
 	private Usuario usuario;
 
+
 	public Usuario getUsuario() {
 		return usuario;
 	}

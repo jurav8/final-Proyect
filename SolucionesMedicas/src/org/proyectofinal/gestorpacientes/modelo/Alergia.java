@@ -19,13 +19,7 @@ public class Alergia {
 	@ManyToOne
 	@JoinColumn(name="paciente_id")
 	private Paciente alergiaPaciente;
-	
-	
-	public Alergia(String nombreAlergia) {
-		super();
-		this.nombreAlergia = nombreAlergia;
-	}
-	
+		
 	public int getIdAlergia() {
 		return idAlergia;
 	}
