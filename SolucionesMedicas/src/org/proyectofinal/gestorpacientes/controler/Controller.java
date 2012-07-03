@@ -194,4 +194,9 @@ public class Controller {
 		session.getTransaction().commit();
 	}
 	
+	public void eliminar(Object objeto){
+		session.delete(objeto);
+		session.getTransaction().commit();
+	}
+
 }
