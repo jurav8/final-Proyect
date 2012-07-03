@@ -1,16 +1,9 @@
 package org.proyectofinal.gestorpacientes;
 
-
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.AnnotationConfiguration;
-import org.hibernate.tool.hbm2ddl.SchemaExport;
-import org.proyectofinal.gestorpacientes.modelo.*;
-import org.proyectofinal.gestorpacientes.vista.VentanaDeBusquedaDePacientes;
-import org.proyectofinal.gestorpacientes.vista.VentanaDeListaDeMedicos;
-import org.proyectofinal.gestorpacientes.vista.VentanaDeResultados;
+
+import org.proyectofinal.gestorpacientes.controler.Controller;
 import org.proyectofinal.gestorpacientes.vista.VentanaPrincipal;
 
 public class Sistema {
@@ -20,39 +13,13 @@ public class Sistema {
 	 */
 	public static void main(String[] args) {
 		
-	/*	AnnotationConfiguration config = new AnnotationConfiguration();
-		config.addAnnotatedClass(Alergia.class);
-		config.addAnnotatedClass(Asistentes.class);
-		config.addAnnotatedClass(Citas.class);
-		config.addAnnotatedClass(Especialidad.class);
-		config.addAnnotatedClass(Medico.class);
-		config.addAnnotatedClass(Paciente.class);
-		config.addAnnotatedClass(Padecimientos.class);
-		config.addAnnotatedClass(Persona.class);
-		config.addAnnotatedClass(PruebaDeLaboratorio.class);
-		config.addAnnotatedClass(Recetas.class);
-		config.addAnnotatedClass(ResultadoDeLaboratorio.class);
-		config.addAnnotatedClass(Usuario.class);
-		config.configure("hibernate.cfg.xml");
+		Controller con = Controller.getEnlace(false,false);
 		
-		new SchemaExport(config).create(true, true);
+//		Padecimientos pa = con.consultarPadecimiento(2);
+//		con.eliminar(pa);
+
 		
-		SessionFactory factory = config.buildSessionFactory();
-		Session session = factory.getCurrentSession();
-		session.beginTransaction();
-		
-		Medico medico = new Medico();
-		medico.setIdusuario(1);
-		medico.setApellido("Lizardo");
-		medico.setCedula("1");
-		medico.setDireccion("casa");
-		medico.setNombre("julio");
-		medico.setTelefonoCasa("asdf");
-		medico.setTelefonoCelular("asgsdfg");
-		
-		session.persist(medico);
-		session.getTransaction().commit();
-		System.gc();*/
+		System.gc();
 		try {
 			UIManager.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
 		} catch (ClassNotFoundException | InstantiationException
@@ -61,7 +28,6 @@ public class Sistema {
 			e.printStackTrace();
 		}
 		new VentanaPrincipal().setVisible(true);
-		//new VentanaDeBusquedaDePacientes().setVisible(true);
 	}
 
 }
